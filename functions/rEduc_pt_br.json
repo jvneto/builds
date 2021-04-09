@@ -397,7 +397,7 @@
     },
     "velocidademotordireita": { "parameters": [] },
     "velocidademotoresquerda": { "parameters": [] },
-    "escreverbooleanoo": {
+    "escreverbooleano": {
       "parameters": [
         { "category": "Linha do Console", "type": "numero" },
         { "category": "Parâmetro", "type": "booleano" }
