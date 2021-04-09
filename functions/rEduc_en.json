@@ -57,129 +57,219 @@
       ]
     },
     "convertToString": {
-      "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" }
-      ]
+      "parameters": [{ "category": "Número", "type": "numero" }]
     },
-    "open": { "parameters": [{ "category": "", "type": "int" }] },
-    "close": { "parameters": [{ "category": "", "type": "int" }] },
-    "raise": { "parameters": [{ "category": "", "type": "int" }] },
-    "lower": { "parameters": [{ "category": "", "type": "int" }] },
-    "turnUp": { "parameters": [{ "category": "", "type": "int" }] },
-    "turnDown": { "parameters": [{ "category": "", "type": "int" }] },
+    "open": {
+      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    },
+    "close": {
+      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    },
+    "raise": {
+      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    },
+    "lower": {
+      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    },
+    "turnUp": {
+      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    },
+    "turnDown": {
+      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    },
     "writeNumber": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" }
+        { "category": "Linha do Console", "type": "numero" },
+        { "category": "Texto", "type": "texto" }
       ]
     },
-    "add": { "parameters": [{ "category": "", "type": "int" }] },
-    "subtract": { "parameters": [{ "category": "", "type": "int" }] },
-    "multiply": { "parameters": [{ "category": "", "type": "int" }] },
-    "divide": { "parameters": [{ "category": "", "type": "int" }] },
-    "comment": { "parameters": [{ "category": "", "type": "String" }] },
+    "add": {
+      "parameters": [
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
+      ]
+    },
+    "subtract": {
+      "parameters": [
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
+      ]
+    },
+    "multiply": {
+      "parameters": [
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
+      ]
+    },
+    "divide": {
+      "parameters": [
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
+      ]
+    },
+    "comment": {
+      "parameters": [{ "category": "comentário", "type": "texto" }]
+    },
     "clearConsole": { "parameters": [] },
-    "concatenate": { "parameters": [{ "category": "", "type": "String" }] },
-    "mod": { "parameters": [{ "category": "", "type": "int" }] },
-    "minus": { "parameters": [{ "category": "", "type": "int" }] },
-    "round": { "parameters": [{ "category": "", "type": "int" }] },
+    "concatenate": {
+      "parameters": [
+        { "category": "Texto A", "type": "texto" },
+        { "category": "Texto B", "type": "texto" }
+      ]
+    },
+    "mod": {
+      "parameters": [
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
+      ]
+    },
+    "minus": { "parameters": [{ "category": "Número", "type": "numero" }] },
+    "round": { "parameters": [{ "category": "Número", "type": "numero" }] },
     "substitute": {
       "parameters": [
-        { "category": "", "type": "String" },
-        { "category": "", "type": "String" }
+        { "category": "Parâmetro A", "type": "texto" },
+        { "category": "Parâmetro B", "type": "texto" },
+        { "category": "Parâmetro C", "type": "texto" }
       ]
     },
     "time": { "parameters": [] },
-    "mapping": { "parameters": [{ "category": "", "type": "int" }] },
-    "absolute": { "parameters": [{ "category": "", "type": "int" }] },
+    "mapping": {
+      "parameters": [
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Mínimo Escala Início", "type": "numero" },
+        { "category": "Máximo Escala Início", "type": "numero" },
+        { "category": "Mínimo Escala Final", "type": "numero" },
+        { "category": "Máximo Escala Final", "type": "numero" }
+      ]
+    },
+    "absolute": {
+      "parameters": [{ "category": "Parâmetro", "type": "numero" }]
+    },
     "breakLoop": { "parameters": [] },
-    "greenColor": { "parameters": [{ "category": "", "type": "int" }] },
-    "blueColor": { "parameters": [{ "category": "", "type": "int" }] },
-    "redColor": { "parameters": [{ "category": "", "type": "int" }] },
+    "greenColor": {
+      "parameters": [{ "category": "Sensor", "type": "numero" }]
+    },
+    "blueColor": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
+    "redColor": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
     "rotate": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Força", "type": "numero" },
+        { "category": "Ângulo", "type": "numero" }
       ]
     },
-    "touch": { "parameters": [{ "category": "", "type": "int" }] },
+    "touch": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
     "actuatorAngle": { "parameters": [] },
-    "actuatorVelocity": { "parameters": [{ "category": "", "type": "int" }] },
-    "squareRoot": { "parameters": [{ "category": "", "type": "int" }] },
-    "concatenate3": { "parameters": [{ "category": "", "type": "String" }] },
-    "concatenate4": { "parameters": [{ "category": "", "type": "String" }] },
+    "actuatorVelocity": {
+      "parameters": [{ "category": "Força", "type": "numero" }]
+    },
+    "squareRoot": {
+      "parameters": [{ "category": "Número", "type": "numero" }]
+    },
+    "concatenate3": {
+      "parameters": [
+        { "category": "Texto A", "type": "texto" },
+        { "category": "Texto B", "type": "texto" },
+        { "category": "Texto C", "type": "texto" }
+      ]
+    },
+    "concatenate4": {
+      "parameters": [
+        { "category": "", "type": "texto" },
+        { "category": "Texto A", "type": "texto" },
+        { "category": "Texto B", "type": "texto" },
+        { "category": "Texto C", "type": "texto" },
+        { "category": "Texto D", "type": "texto" }
+      ]
+    },
     "charPosition": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" },
-        { "category": "", "type": "String" }
+        { "category": "Posição", "type": "numero" },
+        { "category": "Texto", "type": "texto" }
       ]
     },
-    "convertToNumber": { "parameters": [{ "category": "", "type": "String" }] },
-    "textLength": { "parameters": [{ "category": "", "type": "String" }] },
-    "turnLedOn": { "parameters": [{ "category": "", "type": "String" }] },
+    "convertToNumber": {
+      "parameters": [{ "category": "número", "type": "texto" }]
+    },
+    "textLength": { "parameters": [{ "category": "Texto", "type": "texto" }] },
+    "turnLedOn": { "parameters": [{ "category": "Cor", "type": "texto" }] },
     "turnRgbLedOn": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Vermelho", "type": "numero" },
+        { "category": "Verde", "type": "numero" },
+        { "category": "Azul", "type": "numero" }
       ]
     },
     "turnLedOff": { "parameters": [] },
     "addNumberList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "removeNumberList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "numberList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
       ]
     },
-    "numberListSize": { "parameters": [{ "category": "", "type": "int" }] },
-    "printNumberList": { "parameters": [{ "category": "", "type": "int" }] },
+    "numberListSize": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
+    "printNumberList": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
     "addTextList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" }
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "texto" }
       ]
     },
     "removeTextList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "textList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
       ]
     },
-    "textListSize": { "parameters": [{ "category": "", "type": "int" }] },
-    "printTextList": { "parameters": [{ "category": "", "type": "int" }] },
-    "truncate": { "parameters": [{ "category": "", "type": "int" }] },
-    "concatenate5": { "parameters": [{ "category": "", "type": "String" }] },
+    "textListSize": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
+    "printTextList": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
+    "truncate": {
+      "parameters": [{ "category": "Parâmetro", "type": "numero" }]
+    },
+    "concatenate5": {
+      "parameters": [
+        { "category": "Parâmetro A", "type": "texto" },
+        { "category": "Parâmetro B", "type": "texto" },
+        { "category": "Parâmetro C", "type": "texto" },
+        { "category": "Parâmetro D", "type": "texto" },
+        { "category": "Parâmetro E", "type": "texto" }
+      ]
+    },
     "forwardRotation": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Força", "type": "numero" },
+        { "category": "Rotações", "type": "numero" }
       ]
     },
     "backwardsRotation": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Força", "type": "numero" },
+        { "category": "Rotações", "type": "numero" }
       ]
     },
     "register": { "parameters": [] },
@@ -187,111 +277,138 @@
     "clearRegister": { "parameters": [] },
     "random": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Parâmetro A", "type": "numero" },
+        { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "stopwatch": { "parameters": [] },
     "resetStopwatch": { "parameters": [] },
-    "sine": { "parameters": [{ "category": "", "type": "int" }] },
-    "cosine": { "parameters": [{ "category": "", "type": "int" }] },
-    "tangent": { "parameters": [{ "category": "", "type": "int" }] },
-    "arcsine": { "parameters": [{ "category": "", "type": "int" }] },
-    "arccosine": { "parameters": [{ "category": "", "type": "int" }] },
-    "arctangent": { "parameters": [{ "category": "", "type": "int" }] },
+    "sine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "cosine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "tangent": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "arcsine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "arccosine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "arctangent": { "parameters": [{ "category": "Graus", "type": "numero" }] },
     "pi": { "parameters": [] },
-    "clearLine": { "parameters": [{ "category": "", "type": "int" }] },
-    "registerText": { "parameters": [{ "category": "", "type": "String" }] },
-    "registerNumber": { "parameters": [{ "category": "", "type": "int" }] },
-    "rightMotor": { "parameters": [{ "category": "", "type": "int" }] },
-    "leftMotor": { "parameters": [{ "category": "", "type": "int" }] },
-    "adjustColor": { "parameters": [{ "category": "", "type": "int" }] },
+    "clearLine": {
+      "parameters": [{ "category": "Linha do Console", "type": "numero" }]
+    },
+    "registerText": {
+      "parameters": [{ "category": "Texto", "type": "texto" }]
+    },
+    "registerNumber": {
+      "parameters": [{ "category": "Número", "type": "numero" }]
+    },
+    "rightMotor": { "parameters": [{ "category": "Força", "type": "numero" }] },
+    "leftMotor": { "parameters": [{ "category": "Força", "type": "numero" }] },
+    "adjustColor": {
+      "parameters": [{ "category": "Sensibilidade", "type": "numero" }]
+    },
     "actuatorScoopAngle": { "parameters": [] },
-    "setPrecision": { "parameters": [{ "category": "", "type": "int" }] },
+    "setPrecision": {
+      "parameters": [{ "category": "Precisão", "type": "numero" }]
+    },
     "playNote": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" },
-        { "category": "", "type": "int" }
+        { "category": "Alto-Falante", "type": "numero" },
+        { "category": "Nota Musical", "type": "texto" },
+        { "category": "Tempo em Milissegundos", "type": "numero" }
       ]
     },
     "playSound": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" }
+        { "category": "Alto-Falante", "type": "numero" },
+        { "category": "Frequência", "type": "numero" },
+        { "category": "Tempo em Milissegundos", "type": "numero" },
+        { "category": "Tipo de Onda", "type": "texto" }
       ]
     },
-    "changeSoundWave": { "parameters": [{ "category": "", "type": "String" }] },
-    "stopSound": { "parameters": [{ "category": "", "type": "int" }] },
+    "changeSoundWave": {
+      "parameters": [{ "category": "Tipo de Onda", "type": "texto" }]
+    },
+    "stopSound": {
+      "parameters": [{ "category": "Alto-Falante", "type": "numero" }]
+    },
     "stopAllSounds": { "parameters": [] },
-    "convertToFrequency": { "parameters": [{ "category": "", "type": "int" }] },
-    "convertToHertz": { "parameters": [{ "category": "", "type": "int" }] },
+    "convertToFrequency": {
+      "parameters": [{ "category": "Frequência em Hertz", "type": "numero" }]
+    },
+    "convertToHertz": {
+      "parameters": [
+        { "category": "Frequência na Unidade do Simulador", "type": "numero" }
+      ]
+    },
     "playSoundHertz": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" }
+        { "category": "Alto-Falante", "type": "numero" },
+        { "category": "Frequência", "type": "numero" },
+        { "category": "Tempo em Milissegundos", "type": "numero" },
+        { "category": "Tipo de Onda", "type": "texto" }
       ]
     },
-    "sortNumberList": { "parameters": [{ "category": "", "type": "int" }] },
-    "reverseNumberList": { "parameters": [{ "category": "", "type": "int" }] },
+    "sortNumberList": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
+    "reverseNumberList": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
     "containsNumberList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "numero" }
       ]
     },
     "setNumberList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Posição na Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "numero" }
       ]
     },
-    "sortTextList": { "parameters": [{ "category": "", "type": "int" }] },
-    "reverseTextList": { "parameters": [{ "category": "", "type": "int" }] },
+    "sortTextList": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
+    "reverseTextList": {
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+    },
     "containsTextList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "numero" }
       ]
     },
     "setTextList": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Posição na Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "texto" }
       ]
     },
     "rightMotorSpeed": { "parameters": [] },
     "leftMotorSpeed": { "parameters": [] },
     "writeBoolean": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" },
-        { "category": "", "type": "boolean" }
+        { "category": "Linha do Console", "type": "numero" },
+        { "category": "Parâmetro", "type": "booleano" }
       ]
     },
     "registerBoolean": {
-      "parameters": [{ "category": "", "type": "boolean" }]
+      "parameters": [{ "category": "Parâmetro", "type": "booleano" }]
     },
     "pow": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Base", "type": "numero" },
+        { "category": "Expoente", "type": "numero" }
       ]
     },
     "paint": { "parameters": [] },
     "stopPainting": { "parameters": [] },
-    "pencilColor": { "parameters": [{ "category": "", "type": "String" }] },
+    "pencilColor": { "parameters": [{ "category": "Cor", "type": "texto" }] },
     "pencilRgbColor": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Vermelho", "type": "numero" },
+        { "category": "Verde", "type": "numero" },
+        { "category": "Azul", "type": "numero" }
       ]
     },
     "turnFanOn": { "parameters": [] },

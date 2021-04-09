@@ -413,7 +413,7 @@
       ]
     },
     "pintar": { "parameters": [] },
-    "pararpintura": { "parameters": [] },
+    "pararpnumeroura": { "parameters": [] },
     "corpincel": { "parameters": [{ "category": "Cor", "type": "texto" }] },
     "corpincelrgb": {
       "parameters": [
