@@ -7,269 +7,269 @@
     "types": ["int", "String", "boolean"]
   },
   "functions": {
-    "wait": { "parameters": [{ "category": "Tempo", "type": "numero" }] },
-    "ultra": { "parameters": [{ "category": "Distância", "type": "numero" }] },
+    "wait": { "parameters": [{ "category": "Time", "type": "int" }] },
+    "ultra": { "parameters": [{ "category": "Distance", "type": "int" }] },
     "direction": { "parameters": [] },
     "hasObject": {
       "parameters": [
-        { "category": "Sensor", "type": "numero" },
-        { "category": "Mínimo", "type": "numero" },
-        { "category": "Máximo", "type": "numero" }
+        { "category": "Sensor", "type": "int" },
+        { "category": "Minimum", "type": "int" },
+        { "category": "Maximum", "type": "int" }
       ]
     },
     "forward": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Força", "type": "numero" }
+        { "category": "Force", "type": "int" },
+        { "category": "Force", "type": "int" }
       ]
     },
     "backwards": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Força", "type": "numero" }
+        { "category": "Force", "type": "int" },
+        { "category": "Force", "type": "int" }
       ]
     },
     "right": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Força", "type": "numero" }
+        { "category": "Force", "type": "int" },
+        { "category": "Force", "type": "int" }
       ]
     },
     "left": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Força", "type": "numero" }
+        { "category": "Force", "type": "int" },
+        { "category": "Force", "type": "int" }
       ]
     },
     "move": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Force", "type": "int" },
+        { "category": "Force", "type": "int" }
       ]
     },
     "stop": { "parameters": [] },
-    "color": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "light": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
+    "color": { "parameters": [{ "category": "Sensor", "type": "int" }] },
+    "light": { "parameters": [{ "category": "Sensor", "type": "int" }] },
     "write": {
       "parameters": [
-        { "category": "Linha do Console", "type": "numero" },
-        { "category": "Texto", "type": "texto" }
+        { "category": "Console Line", "type": "int" },
+        { "category": "String", "type": "String" }
       ]
     },
     "convertToString": {
-      "parameters": [{ "category": "Número", "type": "numero" }]
+      "parameters": [{ "category": "Number", "type": "int" }]
     },
     "open": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+      "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "close": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+      "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "raise": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+      "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "lower": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+      "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "turnUp": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+      "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "turnDown": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+      "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "writeNumber": {
       "parameters": [
-        { "category": "Linha do Console", "type": "numero" },
-        { "category": "Texto", "type": "texto" }
+        { "category": "Console Line", "type": "int" },
+        { "category": "String", "type": "String" }
       ]
     },
     "add": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "subtract": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "multiply": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "divide": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "comment": {
-      "parameters": [{ "category": "comentário", "type": "texto" }]
+      "parameters": [{ "category": "Comment", "type": "String" }]
     },
     "clearConsole": { "parameters": [] },
     "concatenate": {
       "parameters": [
-        { "category": "Texto A", "type": "texto" },
-        { "category": "Texto B", "type": "texto" }
+        { "category": "String A", "type": "String" },
+        { "category": "String B", "type": "String" }
       ]
     },
     "mod": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
-    "minus": { "parameters": [{ "category": "Número", "type": "numero" }] },
-    "round": { "parameters": [{ "category": "Número", "type": "numero" }] },
+    "minus": { "parameters": [{ "category": "Number", "type": "int" }] },
+    "round": { "parameters": [{ "category": "Number", "type": "int" }] },
     "substitute": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "texto" },
-        { "category": "Parâmetro B", "type": "texto" },
-        { "category": "Parâmetro C", "type": "texto" }
+        { "category": "Parameter A", "type": "String" },
+        { "category": "Parameter B", "type": "String" },
+        { "category": "Parameter C", "type": "String" }
       ]
     },
     "time": { "parameters": [] },
     "mapping": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Mínimo Escala Início", "type": "numero" },
-        { "category": "Máximo Escala Início", "type": "numero" },
-        { "category": "Mínimo Escala Final", "type": "numero" },
-        { "category": "Máximo Escala Final", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Minimum Home Scale", "type": "int" },
+        { "category": "Maximum Start Scale", "type": "int" },
+        { "category": "Minimum Final Scale", "type": "int" },
+        { "category": "Maximum Final Scale", "type": "int" }
       ]
     },
     "absolute": {
-      "parameters": [{ "category": "Parâmetro", "type": "numero" }]
+      "parameters": [{ "category": "Parameter", "type": "int" }]
     },
     "breakLoop": { "parameters": [] },
     "greenColor": {
-      "parameters": [{ "category": "Sensor", "type": "numero" }]
+      "parameters": [{ "category": "Sensor", "type": "int" }]
     },
-    "blueColor": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "redColor": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
+    "blueColor": { "parameters": [{ "category": "Sensor", "type": "int" }] },
+    "redColor": { "parameters": [{ "category": "Sensor", "type": "int" }] },
     "rotate": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Ângulo", "type": "numero" }
+        { "category": "Force", "type": "int" },
+        { "category": "Angle", "type": "int" }
       ]
     },
-    "touch": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
+    "touch": { "parameters": [{ "category": "Sensor", "type": "int" }] },
     "actuatorAngle": { "parameters": [] },
     "actuatorVelocity": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
+      "parameters": [{ "category": "Force", "type": "int" }]
     },
     "squareRoot": {
-      "parameters": [{ "category": "Número", "type": "numero" }]
+      "parameters": [{ "category": "Number", "type": "int" }]
     },
     "concatenate3": {
       "parameters": [
-        { "category": "Texto A", "type": "texto" },
-        { "category": "Texto B", "type": "texto" },
-        { "category": "Texto C", "type": "texto" }
+        { "category": "String A", "type": "String" },
+        { "category": "String B", "type": "String" },
+        { "category": "String C", "type": "String" }
       ]
     },
     "concatenate4": {
       "parameters": [
-        { "category": "", "type": "texto" },
-        { "category": "Texto A", "type": "texto" },
-        { "category": "Texto B", "type": "texto" },
-        { "category": "Texto C", "type": "texto" },
-        { "category": "Texto D", "type": "texto" }
+        { "category": "", "type": "String" },
+        { "category": "String A", "type": "String" },
+        { "category": "String B", "type": "String" },
+        { "category": "String C", "type": "String" },
+        { "category": "String D", "type": "String" }
       ]
     },
     "charPosition": {
       "parameters": [
-        { "category": "Posição", "type": "numero" },
-        { "category": "Texto", "type": "texto" }
+        { "category": "Position", "type": "int" },
+        { "category": "String", "type": "String" }
       ]
     },
     "convertToNumber": {
-      "parameters": [{ "category": "número", "type": "texto" }]
+      "parameters": [{ "category": "número", "type": "String" }]
     },
-    "textLength": { "parameters": [{ "category": "Texto", "type": "texto" }] },
-    "turnLedOn": { "parameters": [{ "category": "Cor", "type": "texto" }] },
+    "textLength": { "parameters": [{ "category": "String", "type": "String" }] },
+    "turnLedOn": { "parameters": [{ "category": "Color", "type": "String" }] },
     "turnRgbLedOn": {
       "parameters": [
-        { "category": "Vermelho", "type": "numero" },
-        { "category": "Verde", "type": "numero" },
-        { "category": "Azul", "type": "numero" }
+        { "category": "Red", "type": "int" },
+        { "category": "Verde", "type": "int" },
+        { "category": "Blue", "type": "int" }
       ]
     },
     "turnLedOff": { "parameters": [] },
     "addNumberList": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "removeNumberList": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "numberList": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "numberListSize": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "printNumberList": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "addTextList": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "texto" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "String" }
       ]
     },
     "removeTextList": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "textList": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "textListSize": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "printTextList": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "truncate": {
-      "parameters": [{ "category": "Parâmetro", "type": "numero" }]
+      "parameters": [{ "category": "Parameter", "type": "int" }]
     },
     "concatenate5": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "texto" },
-        { "category": "Parâmetro B", "type": "texto" },
-        { "category": "Parâmetro C", "type": "texto" },
-        { "category": "Parâmetro D", "type": "texto" },
-        { "category": "Parâmetro E", "type": "texto" }
+        { "category": "Parameter A", "type": "String" },
+        { "category": "Parameter B", "type": "String" },
+        { "category": "Parameter C", "type": "String" },
+        { "category": "Parameter D", "type": "String" },
+        { "category": "Parameter E", "type": "String" }
       ]
     },
     "forwardRotation": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Rotações", "type": "numero" }
+        { "category": "Force", "type": "int" },
+        { "category": "Rotations", "type": "int" }
       ]
     },
     "backwardsRotation": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Rotações", "type": "numero" }
+        { "category": "Force", "type": "int" },
+        { "category": "Rotations", "type": "int" }
       ]
     },
     "register": { "parameters": [] },
@@ -277,138 +277,138 @@
     "clearRegister": { "parameters": [] },
     "random": {
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
     "stopwatch": { "parameters": [] },
     "resetStopwatch": { "parameters": [] },
-    "sine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "cosine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "tangent": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arcsine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arccosine": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arctangent": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "sine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
+    "cosine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
+    "tangent": { "parameters": [{ "category": "Degrees", "type": "int" }] },
+    "arcsine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
+    "arccosine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
+    "arctangent": { "parameters": [{ "category": "Degrees", "type": "int" }] },
     "pi": { "parameters": [] },
     "clearLine": {
-      "parameters": [{ "category": "Linha do Console", "type": "numero" }]
+      "parameters": [{ "category": "Console Line", "type": "int" }]
     },
     "registerText": {
-      "parameters": [{ "category": "Texto", "type": "texto" }]
+      "parameters": [{ "category": "String", "type": "String" }]
     },
     "registerNumber": {
-      "parameters": [{ "category": "Número", "type": "numero" }]
+      "parameters": [{ "category": "Number", "type": "int" }]
     },
-    "rightMotor": { "parameters": [{ "category": "Força", "type": "numero" }] },
-    "leftMotor": { "parameters": [{ "category": "Força", "type": "numero" }] },
+    "rightMotor": { "parameters": [{ "category": "Force", "type": "int" }] },
+    "leftMotor": { "parameters": [{ "category": "Force", "type": "int" }] },
     "adjustColor": {
-      "parameters": [{ "category": "Sensibilidade", "type": "numero" }]
+      "parameters": [{ "category": "Sensitivity", "type": "int" }]
     },
     "actuatorScoopAngle": { "parameters": [] },
     "setPrecision": {
-      "parameters": [{ "category": "Precisão", "type": "numero" }]
+      "parameters": [{ "category": "Precision", "type": "int" }]
     },
     "playNote": {
       "parameters": [
-        { "category": "Alto-Falante", "type": "numero" },
-        { "category": "Nota Musical", "type": "texto" },
-        { "category": "Tempo em Milissegundos", "type": "numero" }
+        { "category": "Speaker", "type": "int" },
+        { "category": "Musical Note", "type": "String" },
+        { "category": "Milliseconds Time", "type": "int" }
       ]
     },
     "playSound": {
       "parameters": [
-        { "category": "Alto-Falante", "type": "numero" },
-        { "category": "Frequência", "type": "numero" },
-        { "category": "Tempo em Milissegundos", "type": "numero" },
-        { "category": "Tipo de Onda", "type": "texto" }
+        { "category": "Speaker", "type": "int" },
+        { "category": "Frequency", "type": "int" },
+        { "category": "Milliseconds Time", "type": "int" },
+        { "category": "Wave Type", "type": "String" }
       ]
     },
     "changeSoundWave": {
-      "parameters": [{ "category": "Tipo de Onda", "type": "texto" }]
+      "parameters": [{ "category": "Wave Type", "type": "String" }]
     },
     "stopSound": {
-      "parameters": [{ "category": "Alto-Falante", "type": "numero" }]
+      "parameters": [{ "category": "Speaker", "type": "int" }]
     },
     "stopAllSounds": { "parameters": [] },
     "convertToFrequency": {
-      "parameters": [{ "category": "Frequência em Hertz", "type": "numero" }]
+      "parameters": [{ "category": "Frequency in Hertz", "type": "int" }]
     },
     "convertToHertz": {
       "parameters": [
-        { "category": "Frequência na Unidade do Simulador", "type": "numero" }
+        { "category": "Frequency na Unidade do Simulador", "type": "int" }
       ]
     },
     "playSoundHertz": {
       "parameters": [
-        { "category": "Alto-Falante", "type": "numero" },
-        { "category": "Frequência", "type": "numero" },
-        { "category": "Tempo em Milissegundos", "type": "numero" },
-        { "category": "Tipo de Onda", "type": "texto" }
+        { "category": "Speaker", "type": "int" },
+        { "category": "Frequency", "type": "int" },
+        { "category": "Milliseconds Time", "type": "int" },
+        { "category": "Wave Type", "type": "String" }
       ]
     },
     "sortNumberList": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "reverseNumberList": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "containsNumberList": {
       "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "numero" }
+        { "category": "List Number", "type": "int" },
+        { "category": "Parameter", "type": "int" }
       ]
     },
     "setNumberList": {
       "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Posição na Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "numero" }
+        { "category": "List Number", "type": "int" },
+        { "category": "Position in List", "type": "int" },
+        { "category": "Parameter", "type": "int" }
       ]
     },
     "sortTextList": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "reverseTextList": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
+      "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "containsTextList": {
       "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "numero" }
+        { "category": "List Number", "type": "int" },
+        { "category": "Parameter", "type": "int" }
       ]
     },
     "setTextList": {
       "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Posição na Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "texto" }
+        { "category": "List Number", "type": "int" },
+        { "category": "Position in List", "type": "int" },
+        { "category": "Parameter", "type": "String" }
       ]
     },
     "rightMotorSpeed": { "parameters": [] },
     "leftMotorSpeed": { "parameters": [] },
     "writeBoolean": {
       "parameters": [
-        { "category": "Linha do Console", "type": "numero" },
-        { "category": "Parâmetro", "type": "booleano" }
+        { "category": "Console Line", "type": "int" },
+        { "category": "Parameter", "type": "boolean" }
       ]
     },
     "registerBoolean": {
-      "parameters": [{ "category": "Parâmetro", "type": "booleano" }]
+      "parameters": [{ "category": "Parameter", "type": "boolean" }]
     },
     "pow": {
       "parameters": [
-        { "category": "Base", "type": "numero" },
-        { "category": "Expoente", "type": "numero" }
+        { "category": "Base", "type": "int" },
+        { "category": "Exponent", "type": "int" }
       ]
     },
     "paint": { "parameters": [] },
     "stopPainting": { "parameters": [] },
-    "pencilColor": { "parameters": [{ "category": "Cor", "type": "texto" }] },
+    "pencilColor": { "parameters": [{ "category": "Color", "type": "String" }] },
     "pencilRgbColor": {
       "parameters": [
-        { "category": "Vermelho", "type": "numero" },
-        { "category": "Verde", "type": "numero" },
-        { "category": "Azul", "type": "numero" }
+        { "category": "Red", "type": "int" },
+        { "category": "Verde", "type": "int" },
+        { "category": "Blue", "type": "int" }
       ]
     },
     "turnFanOn": { "parameters": [] },
