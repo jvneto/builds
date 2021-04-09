@@ -1,11 +1,5 @@
-[
-  {
-    "API_ID": "76",
-	"name": "rEduc_en",
-	"functions": [
-		{
-			
-		}
-	]
-  }
-]
+{
+  "API_ID": "76",
+  "name": "rEduc_en",
+  "functions": [{}]
+}
