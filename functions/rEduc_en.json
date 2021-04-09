@@ -7,38 +7,38 @@
     "types": ["int", "String", "boolean"]
   },
   "functions": {
-    "wait": { "parameters": [{ "category": "", "type": "int" }] },
-    "ultra": { "parameters": [{ "category": "", "type": "int" }] },
+    "wait": { "parameters": [{ "category": "Tempo", "type": "numero" }] },
+    "ultra": { "parameters": [{ "category": "Distância", "type": "numero" }] },
     "direction": { "parameters": [] },
     "hasObject": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Sensor", "type": "numero" },
+        { "category": "Mínimo", "type": "numero" },
+        { "category": "Máximo", "type": "numero" }
       ]
     },
     "forward": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Força", "type": "numero" },
+        { "category": "Força", "type": "numero" }
       ]
     },
     "backwards": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Força", "type": "numero" },
+        { "category": "Força", "type": "numero" }
       ]
     },
     "right": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Força", "type": "numero" },
+        { "category": "Força", "type": "numero" }
       ]
     },
     "left": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "int" }
+        { "category": "Força", "type": "numero" },
+        { "category": "Força", "type": "numero" }
       ]
     },
     "move": {
@@ -48,12 +48,12 @@
       ]
     },
     "stop": { "parameters": [] },
-    "color": { "parameters": [{ "category": "", "type": "int" }] },
-    "light": { "parameters": [{ "category": "", "type": "int" }] },
+    "color": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
+    "light": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
     "write": {
       "parameters": [
-        { "category": "", "type": "int" },
-        { "category": "", "type": "String" }
+        { "category": "Linha do Console", "type": "numero" },
+        { "category": "Texto", "type": "texto" }
       ]
     },
     "convertToString": {
