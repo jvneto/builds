@@ -3,7 +3,7 @@
   "name": "rEduc_pt_br",
   "CFC": true,
   "dictionary": {
-    "example": ["<b>Exemplo:</b>", "<b>Exemplo: </b>"]
+    "example": ["<b>"]
   },
   "functions": [{}]
 }
