@@ -2,5 +2,8 @@
   "API_ID": "74",
   "name": "rEduc_pt_br",
   "CFC": false,
+  "dictionary": {
+    "example": ["<b>Exemplo:</b>", "<b>Exemplo: </b>"]
+  },
   "functions": [{}]
 }
