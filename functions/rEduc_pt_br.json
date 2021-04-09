@@ -3,7 +3,8 @@
   "name": "rEduc_pt_br",
   "CFC": false,
   "dictionary": {
-    "example": ["<b>"]
+    "example": ["<b>"],
+    "types": ["int","String","boolean"]
   },
   "functions": [{}]
 }

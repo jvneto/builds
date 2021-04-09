@@ -3,7 +3,17 @@
   "name": "rEduc_en",
   "CFC": false,
   "dictionary": {
-    "example": ["<b>"]
+    "example": ["<b>"],
+	"types": ["int","String","boolean"]
   },
-  "functions": [{}]
+  "functions": {
+    "hasObject": {
+      "parameters": [
+        {
+          "category": "",
+		  "type": ""
+        }
+      ]
+    }
+  }
 }
