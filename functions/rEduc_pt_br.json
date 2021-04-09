@@ -290,109 +290,136 @@
     "cosseno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
     "tangente": { "parameters": [{ "category": "Graus", "type": "numero" }] },
     "arcoseno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arcocosseno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arcotangente": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "arcocosseno": {
+      "parameters": [{ "category": "Graus", "type": "numero" }]
+    },
+    "arcotangente": {
+      "parameters": [{ "category": "Graus", "type": "numero" }]
+    },
     "pi": { "parameters": [] },
-    "limparlinha": { "parameters": [{ "category": "Linha do Console", "type": "numero" }] },
-    "registrartexto": { "parameters": [{ "category": "Texto", "type": "texto" }] },
-    "registrarnumero": { "parameters": [{ "category": "Número", "type": "numero" }] },
-    "motordireita": { "parameters": [{ "category": "Força", "type": "numero" }] },
-    "motoresquerda": { "parameters": [{ "category": "Força", "type": "numero" }] },
-    "ajustarcor": { "parameters": [{ "category": "", "type": "numero" }] },
+    "limparlinha": {
+      "parameters": [{ "category": "Linha do Console", "type": "numero" }]
+    },
+    "registrartexto": {
+      "parameters": [{ "category": "Texto", "type": "texto" }]
+    },
+    "registrarnumero": {
+      "parameters": [{ "category": "Número", "type": "numero" }]
+    },
+    "motordireita": {
+      "parameters": [{ "category": "Força", "type": "numero" }]
+    },
+    "motoresquerda": {
+      "parameters": [{ "category": "Força", "type": "numero" }]
+    },
+    "ajustarcor": {
+      "parameters": [{ "category": "Sensibilidade", "type": "numero" }]
+    },
     "angulogiroatuador": { "parameters": [] },
-    "ajustarprecisao": { "parameters": [{ "category": "", "type": "numero" }] },
+    "ajustarprecisao": {
+      "parameters": [{ "category": "Precisão", "type": "numero" }]
+    },
     "tocar": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "texto" },
-        { "category": "", "type": "numero" }
+        { "category": "Alto-Falante", "type": "numero" },
+        { "category": "Nota Musical", "type": "texto" },
+        { "category": "Tempo em Milissegundos", "type": "numero" }
       ]
     },
     "tocarsom": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "texto" }
+        { "category": "Alto-Falante", "type": "numero" },
+        { "category": "Frequência", "type": "numero" },
+        { "category": "Tempo em Milissegundos", "type": "numero" },
+        { "category": "Tipo de Onda", "type": "texto" }
       ]
     },
-    "ajustaronda": { "parameters": [{ "category": "", "type": "texto" }] },
-    "parasom": { "parameters": [{ "category": "", "type": "numero" }] },
+    "ajustaronda": {
+      "parameters": [{ "category": "Tipo de Onda", "type": "texto" }]
+    },
+    "parasom": {
+      "parameters": [{ "category": "Alto-Falante", "type": "numero" }]
+    },
     "pararsons": { "parameters": [] },
-    "virarfrequencia": { "parameters": [{ "category": "", "type": "numero" }] },
-    "virarhertz": { "parameters": [{ "category": "", "type": "numero" }] },
+    "virarfrequencia": {
+      "parameters": [{ "category": "Frequência em Hertz", "type": "numero" }]
+    },
+    "virarhertz": {
+      "parameters": [
+        { "category": "Frequência na Unidade do Simulador", "type": "numero" }
+      ]
+    },
     "tocarsomhertz": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "texto" }
+        { "category": "Alto-Falante", "type": "numero" },
+        { "category": "Frequência", "type": "numero" },
+        { "category": "Tempo em Milissegundos", "type": "numero" },
+        { "category": "Tipo de Onda", "type": "texto" }
       ]
     },
     "ordenarlistanumero": {
-      "parameters": [{ "category": "", "type": "numero" }]
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "inverterlistanumero": {
-      "parameters": [{ "category": "", "type": "numero" }]
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "pertencelistanumero": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "numero" }
       ]
     },
     "alterarlistanumero": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Posição na Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "numero" }
       ]
     },
     "ordenarlistatexto": {
-      "parameters": [{ "category": "", "type": "numero" }]
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "inverterlistatexto": {
-      "parameters": [{ "category": "", "type": "numero" }]
+      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "pertencelistatexto": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "numero" }
       ]
     },
     "alterarlistatexto": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "texto" }
+        { "category": "Número da Lista", "type": "numero" },
+        { "category": "Posição na Lista", "type": "numero" },
+        { "category": "Parâmetro", "type": "texto" }
       ]
     },
     "velocidademotordireita": { "parameters": [] },
     "velocidademotoresquerda": { "parameters": [] },
     "escreverbooleanoo": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "texto" },
-        { "category": "", "type": "booleano" }
+        { "category": "Linha do Console", "type": "numero" },
+        { "category": "Parâmetro", "type": "booleano" }
       ]
     },
     "registrarbooelano": {
-      "parameters": [{ "category": "", "type": "booleano" }]
+      "parameters": [{ "category": "Parâmetro", "type": "booleano" }]
     },
     "potencia": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" }
+        { "category": "Base", "type": "numero" },
+        { "category": "Expoente", "type": "numero" }
       ]
     },
     "pnumeroar": { "parameters": [] },
     "pararpnumeroura": { "parameters": [] },
-    "corpincel": { "parameters": [{ "category": "", "type": "texto" }] },
+    "corpincel": { "parameters": [{ "category": "Cor", "type": "texto" }] },
     "corpincelrgb": {
       "parameters": [
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" },
-        { "category": "", "type": "numero" }
+        { "category": "Vermelho", "type": "numero" },
+        { "category": "Verde", "type": "numero" },
+        { "category": "Azul", "type": "numero" }
       ]
     },
     "ligarventilador": { "parameters": [] },
