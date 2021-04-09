@@ -412,7 +412,7 @@
         { "category": "Expoente", "type": "numero" }
       ]
     },
-    "pnumeroar": { "parameters": [] },
+    "pintar": { "parameters": [] },
     "pararpnumeroura": { "parameters": [] },
     "corpincel": { "parameters": [{ "category": "Cor", "type": "texto" }] },
     "corpincelrgb": {
