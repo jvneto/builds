@@ -1,5 +1,6 @@
 {
   "API_ID": "76",
   "name": "rEduc_en",
+  "CFC": false,
   "functions": [{}]
 }
