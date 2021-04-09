@@ -8,7 +8,7 @@
   },
   "functions": {
     "esperar": { "parameters": [{ "category": "Tempo", "type": "numero" }] },
-    "ultra": { "parameters": [{ "category": "Distância", "type": "numero" }] },
+    "ultra": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
     "direcao": { "parameters": [] },
     "inclinacao": { "parameters": [] },
     "temalgo": {
