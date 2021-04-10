@@ -2,6 +2,7 @@
   "API_ID": "74",
   "name": "Csharp",
   "path_flag": "",
+  "lang": "pt-BR",
   "CFC": true,
   "dictionary": {
     "example": ["<b>"],
