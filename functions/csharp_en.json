@@ -1,8 +1,8 @@
 {
-  "API_ID": "74",
+  "API_ID": "76",
   "name": "Csharp",
   "path_flag": "",
-  "lang": "pt-BR",
+  "lang": "en",
   "CFC": true,
   "dictionary": {
     "example": ["<b>"],
