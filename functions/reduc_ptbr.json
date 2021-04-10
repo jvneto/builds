@@ -1,6 +1,7 @@
 {
   "API_ID": "74",
   "name": "rEduc_pt_br",
+  "path_flag": "",
   "CFC": false,
   "dictionary": {
     "example": ["<b>"],
