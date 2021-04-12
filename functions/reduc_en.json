@@ -23,25 +23,21 @@
     },
     "forward": {
       "parameters": [
-        { "category": "Force", "type": "int" },
         { "category": "Force", "type": "int" }
       ]
     },
     "backwards": {
       "parameters": [
-        { "category": "Force", "type": "int" },
         { "category": "Force", "type": "int" }
       ]
     },
     "right": {
       "parameters": [
-        { "category": "Force", "type": "int" },
         { "category": "Force", "type": "int" }
       ]
     },
     "left": {
       "parameters": [
-        { "category": "Force", "type": "int" },
         { "category": "Force", "type": "int" }
       ]
     },

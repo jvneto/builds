@@ -24,25 +24,21 @@
     },
     "frente": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
         { "category": "Força", "type": "numero" }
       ]
     },
     "tras": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
         { "category": "Força", "type": "numero" }
       ]
     },
     "direita": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
         { "category": "Força", "type": "numero" }
       ]
     },
     "esquerda": {
       "parameters": [
-        { "category": "Força", "type": "numero" },
         { "category": "Força", "type": "numero" }
       ]
     },
