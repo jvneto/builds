@@ -6,8 +6,8 @@
     "lin": "https://www.dropbox.com/s/ekzvn20syxhdpfy/sBotics.AppImage?dl=1",
     "os": "https://www.dropbox.com/s/np0to4ash8l0dgr/sBotics.zip?dl=1"
   },
-  "discord": {
+  "discord":{
     "data": "https://discord.com/api/guilds/724343790919221330/widget.json",
-    "members": "https://discord.com/api/v8/invites/d?with_counts=true"
+    "members": "https://discord.com/api/v8/invites/fDhUvWbmMV?with_counts=true"
   }
 }
