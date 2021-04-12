@@ -5,5 +5,9 @@
     "win": "https://www.dropbox.com/s/7tpf3cammqlaw7f/sBotics%20Setup.exe?dl=1",
     "lin": "https://www.dropbox.com/s/ekzvn20syxhdpfy/sBotics.AppImage?dl=1",
     "os": "https://www.dropbox.com/s/d9q46rsnwqwcy0w/sBotics%20MacOS%20X.zip?dl=1"
+  },
+  "discord":{
+    "data": "https://discord.com/api/guilds/724343790919221330/widget.json",
+    "members": "https://discord.com/api/v8/invites/fDhUvWbmMV?with_counts=true"
   }
 }
