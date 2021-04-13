@@ -224,7 +224,7 @@
     "printNumberList": {
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
-    "addstringList": {
+    "addStringList": {
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "String" }
