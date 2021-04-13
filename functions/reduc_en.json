@@ -230,7 +230,7 @@
         { "category": "Parameter B", "type": "String" }
       ]
     },
-    "removestringList": {
+    "removeStringList": {
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
@@ -245,7 +245,7 @@
     "stringListSize": {
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
-    "printstringList": {
+    "printStringList": {
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "truncate": {
@@ -365,19 +365,19 @@
         { "category": "Parameter", "type": "int" }
       ]
     },
-    "sortstringList": {
+    "sortStringList": {
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
-    "reversestringList": {
+    "reverseStringList": {
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
-    "containsstringList": {
+    "containsStringList": {
       "parameters": [
         { "category": "List Number", "type": "int" },
         { "category": "Parameter", "type": "int" }
       ]
     },
-    "setstringList": {
+    "setStringList": {
       "parameters": [
         { "category": "List Number", "type": "int" },
         { "category": "Position in List", "type": "int" },
