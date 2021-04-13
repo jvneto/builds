@@ -13,7 +13,7 @@
   "functions": {
     "wait": { "parameters": [{ "category": "Time", "type": "int" }] },
     "ultra": { "parameters": [{ "category": "Sensor", "type": "int" }] },
-    "direction": { "parameters": [] },
+    "compass": { "parameters": [] },
     "hasObject": {
       "parameters": [
         { "category": "Sensor", "type": "int" },

@@ -11,24 +11,24 @@
     "types": ["int", "String", "boolean"]
   },
   "functions": {
-    "esperar": { "parameters": [{ "category": "", "type": "int" }] },
+    "wait": { "parameters": [{ "category": "", "type": "int" }] },
     "ultra": { "parameters": [{ "category": "", "type": "int" }] },
-    "direcao": { "parameters": [] },
+    "compass": { "parameters": [] },
     "inclinacao": { "parameters": [] },
-    "temalgo": {
+    "hasObject": {
       "parameters": [
         { "category": "", "type": "int" },
         { "category": "", "type": "int" },
         { "category": "", "type": "int" }
       ]
     },
-    "frente": {
+    "forward": {
       "parameters": [
         { "category": "", "type": "int" },
         { "category": "", "type": "int" }
       ]
     },
-    "tras": {
+    "backwards": {
       "parameters": [
         { "category": "", "type": "int" },
         { "category": "", "type": "int" }
