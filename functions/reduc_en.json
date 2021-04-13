@@ -190,7 +190,7 @@
     "convertToNumber": {
       "parameters": [{ "category": "número", "type": "String" }]
     },
-    "textLength": { "parameters": [{ "category": "String", "type": "String" }] },
+    "stringLength": { "parameters": [{ "category": "String", "type": "String" }] },
     "turnLedOn": { "parameters": [{ "category": "Color", "type": "String" }] },
     "turnRgbLedOn": {
       "parameters": [
@@ -293,7 +293,7 @@
     "clearLine": {
       "parameters": [{ "category": "Console Line", "type": "int" }]
     },
-    "registerText": {
+    "registerString": {
       "parameters": [{ "category": "String", "type": "String" }]
     },
     "registerNumber": {
