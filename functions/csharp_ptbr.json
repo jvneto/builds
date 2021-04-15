@@ -9,7 +9,7 @@
   "dictionary": {
     "example": ["<b>"],
     "types": ["numero", "texto", "booleano"],
-    "description": ["Descrição"]
+    "description": "Descrição"
   },
   "functions": {
     "esperar": {
