@@ -327,7 +327,7 @@
     },
     "adjustColor": {
       "state": "true",
-      "parameters": [{ "state": "true", "parameters": [] }]
+      "parameters": []
     },
     "actuatorScoopAngle": { "state": "true", "parameters": [] },
     "setPrecision": {
