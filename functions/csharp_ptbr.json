@@ -22,7 +22,7 @@
         { "category": "Máximo", "type": "numero" }
       ]
     },
-    "fremte": {
+    "frente": {
       "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "tras": {
