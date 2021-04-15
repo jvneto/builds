@@ -22,24 +22,16 @@
       ]
     },
     "forward": {
-      "parameters": [
-        { "category": "Force", "type": "int" }
-      ]
+      "parameters": [{ "category": "Force", "type": "int" }]
     },
     "backwards": {
-      "parameters": [
-        { "category": "Force", "type": "int" }
-      ]
+      "parameters": [{ "category": "Force", "type": "int" }]
     },
     "right": {
-      "parameters": [
-        { "category": "Force", "type": "int" }
-      ]
+      "parameters": [{ "category": "Force", "type": "int" }]
     },
     "left": {
-      "parameters": [
-        { "category": "Force", "type": "int" }
-      ]
+      "parameters": [{ "category": "Force", "type": "int" }]
     },
     "move": {
       "parameters": [
@@ -190,7 +182,9 @@
     "convertToNumber": {
       "parameters": [{ "category": "número", "type": "String" }]
     },
-    "stringLength": { "parameters": [{ "category": "String", "type": "String" }] },
+    "stringLength": {
+      "parameters": [{ "category": "String", "type": "String" }]
+    },
     "turnLedOn": { "parameters": [{ "category": "Color", "type": "String" }] },
     "turnRgbLedOn": {
       "parameters": [
@@ -403,7 +397,9 @@
     },
     "paint": { "parameters": [] },
     "stopPainting": { "parameters": [] },
-    "pencilColor": { "parameters": [{ "category": "Color", "type": "String" }] },
+    "pencilColor": {
+      "parameters": [{ "category": "Color", "type": "String" }]
+    },
     "pencilRgbColor": {
       "parameters": [
         { "category": "Red", "type": "int" },
