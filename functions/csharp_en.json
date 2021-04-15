@@ -134,7 +134,7 @@
       "state": "false",
       "parameters": []
     },
-    "time": { "parameters": [] },
+    "time": { "state": "false", "parameters": [] },
     "mapping": {
       "state": "false",
       "parameters": []
@@ -425,7 +425,7 @@
         { "category": "Parameter", "type": "int" }
       ]
     },
-    "rightMotorSpeed": { "state": "true", "parameters": []  },
+    "rightMotorSpeed": { "state": "true", "parameters": [] },
     "leftMotorSpeed": { "state": "true", "parameters": [] },
     "writeBoolean": {
       "state": "false",
@@ -448,7 +448,8 @@
     "paint": { "state": "true", "parameters": [] },
     "stopPainting": { "state": "true", "parameters": [] },
     "pencilColor": {
-      "state": "false", "parameters": []
+      "state": "false",
+      "parameters": []
     },
     "pencilRgbColor": {
       "state": "true",
