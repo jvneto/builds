@@ -11,10 +11,17 @@
     "types": ["int", "String", "boolean"]
   },
   "functions": {
-    "wait": { "parameters": [{ "category": "Time", "type": "int" }] },
-    "ultra": { "parameters": [{ "category": "Sensor", "type": "int" }] },
-    "compass": { "parameters": [] },
+    "wait": {
+      "state": "true",
+      "parameters": [{ "category": "Time", "type": "int" }]
+    },
+    "ultra": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "compass": { "state": "true", "parameters": [] },
     "hasObject": {
+      "state": "true",
       "parameters": [
         { "category": "Sensor", "type": "int" },
         { "category": "Minimum", "type": "int" },
@@ -22,110 +29,145 @@
       ]
     },
     "forward": {
+      "state": "true",
       "parameters": [{ "category": "Force", "type": "int" }]
     },
     "backwards": {
+      "state": "true",
       "parameters": [{ "category": "Force", "type": "int" }]
     },
     "right": {
+      "state": "true",
       "parameters": [{ "category": "Force", "type": "int" }]
     },
     "left": {
+      "state": "true",
       "parameters": [{ "category": "Force", "type": "int" }]
     },
     "move": {
+      "state": "true",
       "parameters": [
         { "category": "Force", "type": "int" },
         { "category": "Force", "type": "int" }
       ]
     },
-    "stop": { "parameters": [] },
-    "color": { "parameters": [{ "category": "Sensor", "type": "int" }] },
-    "light": { "parameters": [{ "category": "Sensor", "type": "int" }] },
+    "stop": { "state": "true", "parameters": [] },
+    "color": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "light": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
     "write": {
+      "state": "true",
       "parameters": [
         { "category": "Console Line", "type": "int" },
         { "category": "String", "type": "String" }
       ]
     },
     "convertToString": {
+      "state": "true",
       "parameters": [{ "category": "Number", "type": "int" }]
     },
     "open": {
+      "state": "true",
       "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "close": {
+      "state": "true",
       "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "raise": {
+      "state": "true",
       "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "lower": {
+      "state": "true",
       "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "turnUp": {
+      "state": "true",
       "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "turnDown": {
+      "state": "true",
       "parameters": [{ "category": "Milliseconds Time", "type": "int" }]
     },
     "writeNumber": {
+      "state": "true",
       "parameters": [
         { "category": "Console Line", "type": "int" },
         { "category": "String", "type": "String" }
       ]
     },
     "add": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "subtract": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "multiply": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "divide": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "comment": {
+      "state": "true",
       "parameters": [{ "category": "Comment", "type": "String" }]
     },
-    "clearConsole": { "parameters": [] },
+    "clearConsole": { "state": "true", "parameters": [] },
     "concatenate": {
+      "state": "true",
       "parameters": [
         { "category": "String A", "type": "String" },
         { "category": "String B", "type": "String" }
       ]
     },
     "mod": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
-    "minus": { "parameters": [{ "category": "Number", "type": "int" }] },
-    "round": { "parameters": [{ "category": "Number", "type": "int" }] },
+    "minus": {
+      "state": "true",
+      "parameters": [{ "category": "Number", "type": "int" }]
+    },
+    "round": {
+      "state": "true",
+      "parameters": [{ "category": "Number", "type": "int" }]
+    },
     "substitute": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "String" },
         { "category": "Parameter B", "type": "String" },
         { "category": "Parameter C", "type": "String" }
       ]
     },
-    "time": { "parameters": [] },
+    "time": { "state": "true", "parameters": [] },
     "mapping": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Minimum Home Scale", "type": "int" },
@@ -135,29 +177,44 @@
       ]
     },
     "absolute": {
+      "state": "true",
       "parameters": [{ "category": "Parameter", "type": "int" }]
     },
-    "breakLoop": { "parameters": [] },
+    "breakLoop": { "state": "true", "parameters": [] },
     "greenColor": {
+      "state": "true",
       "parameters": [{ "category": "Sensor", "type": "int" }]
     },
-    "blueColor": { "parameters": [{ "category": "Sensor", "type": "int" }] },
-    "redColor": { "parameters": [{ "category": "Sensor", "type": "int" }] },
+    "blueColor": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "redColor": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
     "rotate": {
+      "state": "true",
       "parameters": [
         { "category": "Force", "type": "int" },
         { "category": "Angle", "type": "int" }
       ]
     },
-    "touch": { "parameters": [{ "category": "Sensor", "type": "int" }] },
-    "actuatorAngle": { "parameters": [] },
+    "touch": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "actuatorAngle": { "state": "true", "parameters": [] },
     "actuatorVelocity": {
+      "state": "true",
       "parameters": [{ "category": "Force", "type": "int" }]
     },
     "squareRoot": {
+      "state": "true",
       "parameters": [{ "category": "Number", "type": "int" }]
     },
     "concatenate3": {
+      "state": "true",
       "parameters": [
         { "category": "String A", "type": "String" },
         { "category": "String B", "type": "String" },
@@ -165,6 +222,7 @@
       ]
     },
     "concatenate4": {
+      "state": "true",
       "parameters": [
         { "category": "", "type": "String" },
         { "category": "String A", "type": "String" },
@@ -174,78 +232,97 @@
       ]
     },
     "charPosition": {
+      "state": "true",
       "parameters": [
         { "category": "Position", "type": "int" },
         { "category": "String", "type": "String" }
       ]
     },
     "convertToNumber": {
+      "state": "true",
       "parameters": [{ "category": "número", "type": "String" }]
     },
     "stringLength": {
+      "state": "true",
       "parameters": [{ "category": "String", "type": "String" }]
     },
-    "turnLedOn": { "parameters": [{ "category": "Color", "type": "String" }] },
+    "turnLedOn": {
+      "state": "true",
+      "parameters": [{ "category": "Color", "type": "String" }]
+    },
     "turnRgbLedOn": {
+      "state": "true",
       "parameters": [
         { "category": "Red", "type": "int" },
         { "category": "Verde", "type": "int" },
         { "category": "Blue", "type": "int" }
       ]
     },
-    "turnLedOff": { "parameters": [] },
+    "turnLedOff": { "state": "true", "parameters": [] },
     "addNumberList": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "removeNumberList": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "numberList": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "numberListSize": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "printNumberList": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "addStringList": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "String" }
       ]
     },
     "removeStringList": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "stringList": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
     "stringListSize": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "printStringList": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "truncate": {
+      "state": "true",
       "parameters": [{ "category": "Parameter", "type": "int" }]
     },
     "concatenate5": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "String" },
         { "category": "Parameter B", "type": "String" },
@@ -255,54 +332,87 @@
       ]
     },
     "forwardRotation": {
+      "state": "true",
       "parameters": [
         { "category": "Force", "type": "int" },
         { "category": "Rotations", "type": "int" }
       ]
     },
     "backwardsRotation": {
+      "state": "true",
       "parameters": [
         { "category": "Force", "type": "int" },
         { "category": "Rotations", "type": "int" }
       ]
     },
-    "register": { "parameters": [] },
-    "stopRegister": { "parameters": [] },
-    "clearRegister": { "parameters": [] },
+    "register": { "state": "true", "parameters": [] },
+    "stopRegister": { "state": "true", "parameters": [] },
+    "clearRegister": { "state": "true", "parameters": [] },
     "random": {
+      "state": "true",
       "parameters": [
         { "category": "Parameter A", "type": "int" },
         { "category": "Parameter B", "type": "int" }
       ]
     },
-    "stopwatch": { "parameters": [] },
-    "resetStopwatch": { "parameters": [] },
-    "sine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
-    "cosine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
-    "tangent": { "parameters": [{ "category": "Degrees", "type": "int" }] },
-    "arcsine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
-    "arccosine": { "parameters": [{ "category": "Degrees", "type": "int" }] },
-    "arctangent": { "parameters": [{ "category": "Degrees", "type": "int" }] },
-    "pi": { "parameters": [] },
+    "stopwatch": { "state": "true", "parameters": [] },
+    "resetStopwatch": { "state": "true", "parameters": [] },
+    "sine": {
+      "state": "true",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "cosine": {
+      "state": "true",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "tangent": {
+      "state": "true",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "arcsine": {
+      "state": "true",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "arccosine": {
+      "state": "true",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "arctangent": {
+      "state": "true",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "pi": { "state": "true", "parameters": [] },
     "clearLine": {
+      "state": "true",
       "parameters": [{ "category": "Console Line", "type": "int" }]
     },
     "registerString": {
+      "state": "true",
       "parameters": [{ "category": "String", "type": "String" }]
     },
     "registerNumber": {
+      "state": "true",
       "parameters": [{ "category": "Number", "type": "int" }]
     },
-    "rightMotor": { "parameters": [{ "category": "Force", "type": "int" }] },
-    "leftMotor": { "parameters": [{ "category": "Force", "type": "int" }] },
+    "rightMotor": {
+      "state": "true",
+      "parameters": [{ "category": "Force", "type": "int" }]
+    },
+    "leftMotor": {
+      "state": "true",
+      "parameters": [{ "category": "Force", "type": "int" }]
+    },
     "adjustColor": {
+      "state": "true",
       "parameters": [{ "category": "Sensitivity", "type": "int" }]
     },
-    "actuatorScoopAngle": { "parameters": [] },
+    "actuatorScoopAngle": { "state": "true", "parameters": [] },
     "setPrecision": {
+      "state": "true",
       "parameters": [{ "category": "Precision", "type": "int" }]
     },
     "playNote": {
+      "state": "true",
       "parameters": [
         { "category": "Speaker", "type": "int" },
         { "category": "Musical Note", "type": "String" },
@@ -310,6 +420,7 @@
       ]
     },
     "playSound": {
+      "state": "true",
       "parameters": [
         { "category": "Speaker", "type": "int" },
         { "category": "Frequency", "type": "int" },
@@ -318,21 +429,26 @@
       ]
     },
     "changeSoundWave": {
+      "state": "true",
       "parameters": [{ "category": "Wave Type", "type": "String" }]
     },
     "stopSound": {
+      "state": "true",
       "parameters": [{ "category": "Speaker", "type": "int" }]
     },
-    "stopAllSounds": { "parameters": [] },
+    "stopAllSounds": { "state": "true", "parameters": [] },
     "convertToFrequency": {
+      "state": "true",
       "parameters": [{ "category": "Frequency in Hertz", "type": "int" }]
     },
     "convertToHertz": {
+      "state": "true",
       "parameters": [
         { "category": "Frequency na Unidade do Simulador", "type": "int" }
       ]
     },
     "playSoundHertz": {
+      "state": "true",
       "parameters": [
         { "category": "Speaker", "type": "int" },
         { "category": "Frequency", "type": "int" },
@@ -341,18 +457,22 @@
       ]
     },
     "sortNumberList": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "reverseNumberList": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "containsNumberList": {
+      "state": "true",
       "parameters": [
         { "category": "List Number", "type": "int" },
         { "category": "Parameter", "type": "int" }
       ]
     },
     "setNumberList": {
+      "state": "true",
       "parameters": [
         { "category": "List Number", "type": "int" },
         { "category": "Position in List", "type": "int" },
@@ -360,58 +480,67 @@
       ]
     },
     "sortStringList": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "reverseStringList": {
+      "state": "true",
       "parameters": [{ "category": "List Number", "type": "int" }]
     },
     "containsStringList": {
+      "state": "true",
       "parameters": [
         { "category": "List Number", "type": "int" },
         { "category": "Parameter", "type": "int" }
       ]
     },
     "setStringList": {
+      "state": "true",
       "parameters": [
         { "category": "List Number", "type": "int" },
         { "category": "Position in List", "type": "int" },
         { "category": "Parameter", "type": "String" }
       ]
     },
-    "rightMotorSpeed": { "parameters": [] },
-    "leftMotorSpeed": { "parameters": [] },
+    "rightMotorSpeed": { "state": "true", "parameters": [] },
+    "leftMotorSpeed": { "state": "true", "parameters": [] },
     "writeBoolean": {
+      "state": "true",
       "parameters": [
         { "category": "Console Line", "type": "int" },
         { "category": "Parameter", "type": "boolean" }
       ]
     },
     "registerBoolean": {
+      "state": "true",
       "parameters": [{ "category": "Parameter", "type": "boolean" }]
     },
     "pow": {
+      "state": "true",
       "parameters": [
         { "category": "Base", "type": "int" },
         { "category": "Exponent", "type": "int" }
       ]
     },
-    "paint": { "parameters": [] },
-    "stopPainting": { "parameters": [] },
+    "paint": { "state": "true", "parameters": [] },
+    "stopPainting": { "state": "true", "parameters": [] },
     "pencilColor": {
+      "state": "true",
       "parameters": [{ "category": "Color", "type": "String" }]
     },
     "pencilRgbColor": {
+      "state": "true",
       "parameters": [
         { "category": "Red", "type": "int" },
         { "category": "Verde", "type": "int" },
         { "category": "Blue", "type": "int" }
       ]
     },
-    "turnFanOn": { "parameters": [] },
-    "turnFanOff": { "parameters": [] },
-    "temperature": { "parameters": [] },
-    "hasAnyVictim": { "parameters": [] },
-    "motorSpeed": { "parameters": [] },
-    "inclination": { "parameters": [] }
+    "turnFanOn": { "state": "true", "parameters": [] },
+    "turnFanOff": { "state": "true", "parameters": [] },
+    "temperature": { "state": "true", "parameters": [] },
+    "hasAnyVictim": { "state": "true", "parameters": [] },
+    "motorSpeed": { "state": "true", "parameters": [] },
+    "inclination": { "state": "true", "parameters": [] }
   }
 }

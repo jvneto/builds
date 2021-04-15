@@ -11,11 +11,18 @@
     "types": ["int", "string", "boolean"]
   },
   "functions": {
-    "esperar": { "parameters": [{ "category": "Tempo", "type": "numero" }] },
-    "ultra": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "direcao": { "parameters": [] },
-    "inclinacao": { "parameters": [] },
+    "esperar": {
+      "state": "true",
+      "parameters": [{ "category": "Tempo", "type": "numero" }]
+    },
+    "ultra": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "numero" }]
+    },
+    "direcao": { "state": "true", "parameters": [] },
+    "inclinacao": { "state": "true", "parameters": [] },
     "temalgo": {
+      "state": "true",
       "parameters": [
         { "category": "Sensor", "type": "numero" },
         { "category": "Mínimo", "type": "numero" },
@@ -23,120 +30,145 @@
       ]
     },
     "frente": {
-      "parameters": [
-        { "category": "Força", "type": "numero" }
-      ]
+      "state": "true",
+      "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "tras": {
-      "parameters": [
-        { "category": "Força", "type": "numero" }
-      ]
+      "state": "true",
+      "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "direita": {
-      "parameters": [
-        { "category": "Força", "type": "numero" }
-      ]
+      "state": "true",
+      "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "esquerda": {
-      "parameters": [
-        { "category": "Força", "type": "numero" }
-      ]
+      "state": "true",
+      "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "mover": {
+      "state": "true",
       "parameters": [
         { "category": "Força", "type": "numero" },
         { "category": "Força", "type": "numero" }
       ]
     },
-    "parar": { "parameters": [] },
-    "cor": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "luz": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
+    "parar": { "state": "true", "parameters": [] },
+    "cor": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "numero" }]
+    },
+    "luz": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "numero" }]
+    },
     "escrever": {
+      "state": "true",
       "parameters": [
         { "category": "Linha do Console", "type": "numero" },
         { "category": "Texto", "type": "texto" }
       ]
     },
     "virartexto": {
+      "state": "true",
       "parameters": [{ "category": "Número", "type": "numero" }]
     },
     "abrir": {
+      "state": "true",
       "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
     },
     "fechar": {
+      "state": "true",
       "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
     },
     "levantar": {
+      "state": "true",
       "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
     },
     "baixar": {
+      "state": "true",
       "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
     },
     "girarcima": {
+      "state": "true",
       "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
     },
     "girarbaixo": {
+      "state": "true",
       "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
     },
     "escrevernumero": {
+      "state": "true",
       "parameters": [
         { "category": "Linha do Console", "type": "numero" },
         { "category": "Texto", "type": "texto" }
       ]
     },
     "somar": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "subtrair": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "multiplicar": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "dividir": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "comentar": {
+      "state": "true",
       "parameters": [{ "category": "comentário", "type": "texto" }]
     },
-    "limparconsole": { "parameters": [] },
+    "limparconsole": { "state": "true", "parameters": [] },
     "concatenar": {
+      "state": "true",
       "parameters": [
         { "category": "Texto A", "type": "texto" },
         { "category": "Texto B", "type": "texto" }
       ]
     },
     "resto": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
-    "negativo": { "parameters": [{ "category": "Número", "type": "numero" }] },
+    "negativo": {
+      "state": "true",
+      "parameters": [{ "category": "Número", "type": "numero" }]
+    },
     "arredondar": {
+      "state": "true",
       "parameters": [{ "category": "Número", "type": "numero" }]
     },
     "substituir": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "texto" },
         { "category": "Parâmetro B", "type": "texto" },
         { "category": "Parâmetro C", "type": "texto" }
       ]
     },
-    "tempo": { "parameters": [] },
+    "tempo": { "state": "true", "parameters": [] },
     "mapeamento": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Mínimo Escala Início", "type": "numero" },
@@ -145,28 +177,45 @@
         { "category": "Máximo Escala Final", "type": "numero" }
       ]
     },
-    "modulo": { "parameters": [{ "category": "Parâmetro", "type": "numero" }] },
-    "interromper": { "parameters": [] },
-    "corverde": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "corazul": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
+    "modulo": {
+      "state": "true",
+      "parameters": [{ "category": "Parâmetro", "type": "numero" }]
+    },
+    "interromper": { "state": "true", "parameters": [] },
+    "corverde": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "numero" }]
+    },
+    "corazul": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "numero" }]
+    },
     "corvermelha": {
+      "state": "true",
       "parameters": [{ "category": "Sensor", "type": "numero" }]
     },
     "rotacionar": {
+      "state": "true",
       "parameters": [
         { "category": "Força", "type": "numero" },
         { "category": "Ângulo", "type": "numero" }
       ]
     },
-    "toque": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "anguloatuador": { "parameters": [] },
+    "toque": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "numero" }]
+    },
+    "anguloatuador": { "state": "true", "parameters": [] },
     "velocidadeatuador": {
+      "state": "true",
       "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "raizquadrada": {
+      "state": "true",
       "parameters": [{ "category": "Número", "type": "numero" }]
     },
     "concatenar3": {
+      "state": "true",
       "parameters": [
         { "category": "Texto A", "type": "texto" },
         { "category": "Texto B", "type": "texto" },
@@ -174,6 +223,7 @@
       ]
     },
     "concatenar4": {
+      "state": "true",
       "parameters": [
         { "category": "", "type": "texto" },
         { "category": "Texto A", "type": "texto" },
@@ -183,78 +233,97 @@
       ]
     },
     "textoposicao": {
+      "state": "true",
       "parameters": [
         { "category": "Posição", "type": "numero" },
         { "category": "Texto", "type": "texto" }
       ]
     },
     "virarnumero": {
+      "state": "true",
       "parameters": [{ "category": "número", "type": "texto" }]
     },
     "textotamanho": {
+      "state": "true",
       "parameters": [{ "category": "Texto", "type": "texto" }]
     },
-    "acenderled": { "parameters": [{ "category": "Cor", "type": "texto" }] },
+    "acenderled": {
+      "state": "true",
+      "parameters": [{ "category": "Cor", "type": "texto" }]
+    },
     "acenderledrgb": {
+      "state": "true",
       "parameters": [
         { "category": "Vermelho", "type": "numero" },
         { "category": "Verde", "type": "numero" },
         { "category": "Azul", "type": "numero" }
       ]
     },
-    "apagarled": { "parameters": [] },
+    "apagarled": { "state": "true", "parameters": [] },
     "adicionarlistanumero": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "removerlistanumero": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "listanumero": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "tamanholistanumero": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "imprimirlistanumero": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "adicionarlistatexto": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "texto" }
       ]
     },
     "removerlistatexto": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "listatexto": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
     "tamanholistatexto": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "imprimirlistatexto": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "truncar": {
+      "state": "true",
       "parameters": [{ "category": "Parâmetro", "type": "numero" }]
     },
     "concatenar5": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "texto" },
         { "category": "Parâmetro B", "type": "texto" },
@@ -264,62 +333,87 @@
       ]
     },
     "frenterotacao": {
+      "state": "true",
       "parameters": [
         { "category": "Força", "type": "numero" },
         { "category": "Rotações", "type": "numero" }
       ]
     },
     "trasrotacao": {
+      "state": "true",
       "parameters": [
         { "category": "Força", "type": "numero" },
         { "category": "Rotações", "type": "numero" }
       ]
     },
-    "registrar": { "parameters": [] },
-    "pararregistro": { "parameters": [] },
-    "limparregistro": { "parameters": [] },
+    "registrar": { "state": "true", "parameters": [] },
+    "pararregistro": { "state": "true", "parameters": [] },
+    "limparregistro": { "state": "true", "parameters": [] },
     "aleatorio": {
+      "state": "true",
       "parameters": [
         { "category": "Parâmetro A", "type": "numero" },
         { "category": "Parâmetro B", "type": "numero" }
       ]
     },
-    "temporizador": { "parameters": [] },
-    "zerartemporizador": { "parameters": [] },
-    "seno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "cosseno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "tangente": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arcoseno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
+    "temporizador": { "state": "true", "parameters": [] },
+    "zerartemporizador": { "state": "true", "parameters": [] },
+    "seno": {
+      "state": "true",
+      "parameters": [{ "category": "Graus", "type": "numero" }]
+    },
+    "cosseno": {
+      "state": "true",
+      "parameters": [{ "category": "Graus", "type": "numero" }]
+    },
+    "tangente": {
+      "state": "true",
+      "parameters": [{ "category": "Graus", "type": "numero" }]
+    },
+    "arcoseno": {
+      "state": "true",
+      "parameters": [{ "category": "Graus", "type": "numero" }]
+    },
     "arcocosseno": {
+      "state": "true",
       "parameters": [{ "category": "Graus", "type": "numero" }]
     },
     "arcotangente": {
+      "state": "true",
       "parameters": [{ "category": "Graus", "type": "numero" }]
     },
-    "pi": { "parameters": [] },
+    "pi": { "state": "true", "parameters": [] },
     "limparlinha": {
+      "state": "true",
       "parameters": [{ "category": "Linha do Console", "type": "numero" }]
     },
     "registrartexto": {
+      "state": "true",
       "parameters": [{ "category": "Texto", "type": "texto" }]
     },
     "registrarnumero": {
+      "state": "true",
       "parameters": [{ "category": "Número", "type": "numero" }]
     },
     "motordireita": {
+      "state": "true",
       "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "motoresquerda": {
+      "state": "true",
       "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "ajustarcor": {
+      "state": "true",
       "parameters": [{ "category": "Sensibilidade", "type": "numero" }]
     },
-    "angulogiroatuador": { "parameters": [] },
+    "angulogiroatuador": { "state": "true", "parameters": [] },
     "ajustarprecisao": {
+      "state": "true",
       "parameters": [{ "category": "Precisão", "type": "numero" }]
     },
     "tocar": {
+      "state": "true",
       "parameters": [
         { "category": "Alto-Falante", "type": "numero" },
         { "category": "Nota Musical", "type": "texto" },
@@ -327,6 +421,7 @@
       ]
     },
     "tocarsom": {
+      "state": "true",
       "parameters": [
         { "category": "Alto-Falante", "type": "numero" },
         { "category": "Frequência", "type": "numero" },
@@ -335,21 +430,26 @@
       ]
     },
     "ajustaronda": {
+      "state": "true",
       "parameters": [{ "category": "Tipo de Onda", "type": "texto" }]
     },
     "parasom": {
+      "state": "true",
       "parameters": [{ "category": "Alto-Falante", "type": "numero" }]
     },
-    "pararsons": { "parameters": [] },
+    "pararsons": { "state": "true", "parameters": [] },
     "virarfrequencia": {
+      "state": "true",
       "parameters": [{ "category": "Frequência em Hertz", "type": "numero" }]
     },
     "virarhertz": {
+      "state": "true",
       "parameters": [
         { "category": "Frequência na Unidade do Simulador", "type": "numero" }
       ]
     },
     "tocarsomhertz": {
+      "state": "true",
       "parameters": [
         { "category": "Alto-Falante", "type": "numero" },
         { "category": "Frequência", "type": "numero" },
@@ -358,18 +458,22 @@
       ]
     },
     "ordenarlistanumero": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "inverterlistanumero": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "pertencelistanumero": {
+      "state": "true",
       "parameters": [
         { "category": "Número da Lista", "type": "numero" },
         { "category": "Parâmetro", "type": "numero" }
       ]
     },
     "alterarlistanumero": {
+      "state": "true",
       "parameters": [
         { "category": "Número da Lista", "type": "numero" },
         { "category": "Posição na Lista", "type": "numero" },
@@ -377,55 +481,66 @@
       ]
     },
     "ordenarlistatexto": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "inverterlistatexto": {
+      "state": "true",
       "parameters": [{ "category": "Número da Lista", "type": "numero" }]
     },
     "pertencelistatexto": {
+      "state": "true",
       "parameters": [
         { "category": "Número da Lista", "type": "numero" },
         { "category": "Parâmetro", "type": "numero" }
       ]
     },
     "alterarlistatexto": {
+      "state": "true",
       "parameters": [
         { "category": "Número da Lista", "type": "numero" },
         { "category": "Posição na Lista", "type": "numero" },
         { "category": "Parâmetro", "type": "texto" }
       ]
     },
-    "velocidademotordireita": { "parameters": [] },
-    "velocidademotoresquerda": { "parameters": [] },
+    "velocidademotordireita": { "state": "true", "parameters": [] },
+    "velocidademotoresquerda": { "state": "true", "parameters": [] },
     "escreverbooleano": {
+      "state": "true",
       "parameters": [
         { "category": "Linha do Console", "type": "numero" },
         { "category": "Parâmetro", "type": "booleano" }
       ]
     },
     "registrarbooelano": {
+      "state": "true",
       "parameters": [{ "category": "Parâmetro", "type": "booleano" }]
     },
     "potencia": {
+      "state": "true",
       "parameters": [
         { "category": "Base", "type": "numero" },
         { "category": "Expoente", "type": "numero" }
       ]
     },
-    "pintar": { "parameters": [] },
-    "pararpintura": { "parameters": [] },
-    "corpincel": { "parameters": [{ "category": "Cor", "type": "texto" }] },
+    "pintar": { "state": "true", "parameters": [] },
+    "pararpintura": { "state": "true", "parameters": [] },
+    "corpincel": {
+      "state": "true",
+      "parameters": [{ "category": "Cor", "type": "texto" }]
+    },
     "corpincelrgb": {
+      "state": "true",
       "parameters": [
         { "category": "Vermelho", "type": "numero" },
         { "category": "Verde", "type": "numero" },
         { "category": "Azul", "type": "numero" }
       ]
     },
-    "ligarventilador": { "parameters": [] },
-    "desligarventilador": { "parameters": [] },
-    "temperatura": { "parameters": [] },
-    "temvitima": { "parameters": [] },
-    "forcamotor": { "parameters": [] }
+    "ligarventilador": { "state": "true", "parameters": [] },
+    "desligarventilador": { "state": "true", "parameters": [] },
+    "temperatura": { "state": "true", "parameters": [] },
+    "temvitima": { "state": "true", "parameters": [] },
+    "forcamotor": { "state": "true", "parameters": [] }
   }
 }
