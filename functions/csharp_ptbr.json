@@ -69,7 +69,7 @@
       ]
     },
     "virartexto": {
-      "state": "true",
+      "state": "false",
       "parameters": [{ "category": "Número", "type": "numero" }]
     },
     "abrir": {
