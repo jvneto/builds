@@ -8,7 +8,7 @@
   "CFC": true,
   "dictionary": {
     "example": ["<b>"],
-    "types": ["int", "int", "boolean"]
+    "types": ["int", "text", "boolean"]
   },
   "functions": {
     "wait": {
