@@ -8,8 +8,7 @@
   "CFC": true,
   "dictionary": {
     "example": ["<b>"],
-    "types": ["numero", "texto", "booleano"],
-    "variable_types": "",
+    "types": ["numero", "texto", "booleano"]
   },
   "functions": {
     "esperar": { "parameters": [{ "category": "Tempo", "type": "numero" }] },
