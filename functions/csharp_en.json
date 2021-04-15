@@ -8,416 +8,461 @@
   "CFC": true,
   "dictionary": {
     "example": ["<b>"],
-    "types": ["numero", "texto", "booleano"]
+    "types": ["int", "int", "boolean"]
   },
   "functions": {
-    "esperar": { "parameters": [{ "category": "Tempo", "type": "numero" }] },
-    "ultra": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "direcao": { "parameters": [] },
-    "inclinacao": { "parameters": [] },
-    "temalgo": {
+    "wait": {
+      "state": "true",
+      "parameters": [{ "category": "Time", "type": "int" }]
+    },
+    "ultra": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "compass": { "state": "true", "parameters": [] },
+    "hasObject": {
+      "state": "true",
       "parameters": [
-        { "category": "Sensor", "type": "numero" },
-        { "category": "Mínimo", "type": "numero" },
-        { "category": "Máximo", "type": "numero" }
+        { "category": "Sensor", "type": "int" },
+        { "category": "Minimum", "type": "int" },
+        { "category": "Maximum", "type": "int" }
       ]
     },
-    "fremte": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
+    "forward": {
+      "state": "false",
+      "parameters": [{ "category": "Strength", "type": "int" }]
     },
-    "tras": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
+    "backwards": {
+      "state": "false",
+      "parameters": [{ "category": "Strength", "type": "int" }]
     },
-    "direita": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
+    "right": {
+      "state": "false",
+      "parameters": [{ "category": "Strength", "type": "int" }]
     },
-    "esquerda": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
+    "left": {
+      "state": "false",
+      "parameters": [{ "category": "Strength", "type": "int" }]
     },
-    "mover": {
+    "move": {
+      "state": "true",
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Força", "type": "numero" }
+        { "category": "Strength", "type": "int" },
+        { "category": "Strength", "type": "int" }
       ]
     },
-    "parar": { "parameters": [] },
-    "cor": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "luz": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "escrever": {
+    "stop": { "state": "false", "parameters": [] },
+    "color": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "light": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "write": {
+      "state": "true",
       "parameters": [
-        { "category": "Linha do Console", "type": "numero" },
-        { "category": "Texto", "type": "texto" }
+        { "category": "Console Line", "type": "int" },
+        { "category": "Text", "type": "int" }
       ]
     },
-    "virartexto": {
-      "parameters": [{ "category": "Número", "type": "numero" }]
+    "convertToString": {
+      "state": "true",
+      "parameters": [{ "category": "Number", "type": "int" }]
     },
-    "abrir": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    "open": {
+      "state": "true",
+      "parameters": []
     },
-    "fechar": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    "close": {
+      "state": "true",
+      "parameters": []
     },
-    "levantar": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    "raise": {
+      "state": "true",
+      "parameters": [{ "category": "Time in milliseconds", "type": "int" }]
     },
-    "baixar": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    "lower": {
+      "state": "true",
+      "parameters": [{ "category": "Time in milliseconds", "type": "int" }]
     },
-    "girarcima": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    "turnUp": {
+      "state": "true",
+      "parameters": [{ "category": "Time in milliseconds", "type": "int" }]
     },
-    "girarbaixo": {
-      "parameters": [{ "category": "Tempo em Milissegundos", "type": "numero" }]
+    "turnDown": {
+      "state": "true",
+      "parameters": [{ "category": "Time in milliseconds", "type": "int" }]
     },
-    "escrevernumero": {
+    "writeNumber": {
+      "state": "false",
+      "parameters": []
+    },
+    "add": {
+      "state": "false",
+      "parameters": []
+    },
+    "subtract": {
+      "state": "false",
+      "parameters": []
+    },
+    "multiply": {
+      "state": "false",
+      "parameters": []
+    },
+    "divide": {
+      "state": "false",
+      "parameters": []
+    },
+    "comment": {
+      "state": "false",
+      "parameters": []
+    },
+    "clearConsole": { "state": "true", "parameters": [] },
+    "concatenate": {
+      "state": "false",
+      "parameters": []
+    },
+    "mod": {
+      "state": "false",
+      "parameters": [{ "category": "Parameter", "type": "int" }]
+    },
+    "minus": { "state": "false", "parameters": [] },
+    "round": { "state": "false", "parameters": [] },
+    "substitute": {
+      "state": "false",
+      "parameters": []
+    },
+    "time": { "parameters": [] },
+    "mapping": {
+      "state": "false",
+      "parameters": []
+    },
+    "absolute": {
+      "state": "false",
+      "parameters": [{ "category": "Parameter", "type": "int" }]
+    },
+    "breakLoop": { "state": "false", "parameters": [] },
+    "greenColor": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "blueColor": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "redColor": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "rotate": {
+      "state": "true",
       "parameters": [
-        { "category": "Linha do Console", "type": "numero" },
-        { "category": "Texto", "type": "texto" }
+        { "category": "Strength", "type": "int" },
+        { "category": "Angle", "type": "int" }
       ]
     },
-    "somar": {
+    "touch": {
+      "state": "true",
+      "parameters": [{ "category": "Sensor", "type": "int" }]
+    },
+    "actuatorAngle": { "state": "true", "parameters": [] },
+    "actuatorVelocity": {
+      "state": "true",
+      "parameters": [{ "category": "Strength", "type": "int" }]
+    },
+    "squareRoot": {
+      "state": "false",
+      "parameters": []
+    },
+    "concatenate3": {
+      "state": "false",
+      "parameters": []
+    },
+    "concatenate4": {
+      "state": "false",
+      "parameters": []
+    },
+    "charPosition": {
+      "state": "false",
+      "parameters": []
+    },
+    "convertToNumber": {
+      "state": "false",
+      "parameters": [{ "category": "Number", "type": "int" }]
+    },
+    "stringLength": {
+      "state": "false",
+      "parameters": [{ "category": "Text", "type": "int" }]
+    },
+    "turnLedOn": {
+      "state": "false",
+      "parameters": [{ "category": "Color", "type": "int" }]
+    },
+    "turnRgbLedOn": {
+      "state": "true",
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Red", "type": "int" },
+        { "category": "Green", "type": "int" },
+        { "category": "Blue", "type": "int" }
       ]
     },
-    "subtrair": {
+    "turnLedOff": { "state": "true", "parameters": [] },
+    "addNumberList": {
+      "state": "false",
+      "parameters": []
+    },
+    "removeNumberList": {
+      "state": "false",
+      "parameters": []
+    },
+    "numberList": {
+      "state": "false",
+      "parameters": []
+    },
+    "numberListSize": {
+      "state": "false",
+      "parameters": []
+    },
+    "printNumberList": {
+      "state": "false",
+      "parameters": []
+    },
+    "addStringList": {
+      "state": "false",
+      "parameters": []
+    },
+    "removeStringList": {
+      "state": "false",
+      "parameters": []
+    },
+    "stringList": {
+      "state": "false",
+      "parameters": []
+    },
+    "stringListSize": {
+      "state": "false",
+      "parameters": []
+    },
+    "printStringList": {
+      "state": "false",
+      "parameters": []
+    },
+    "truncate": {
+      "state": "false",
+      "parameters": []
+    },
+    "concatenate5": {
+      "state": "false",
+      "parameters": []
+    },
+    "forwardRotation": {
+      "state": "true",
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Strength", "type": "int" },
+        { "category": "Rotations", "type": "int" }
       ]
     },
-    "multiplicar": {
+    "backwardsRotation": {
+      "state": "false",
+      "parameters": []
+    },
+    "register": { "state": "true", "parameters": [] },
+    "stopRegister": { "state": "true", "parameters": [] },
+    "clearRegister": { "state": "true", "parameters": [] },
+    "random": {
+      "state": "true",
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Parameter A", "type": "int" },
+        { "category": "Parameter B", "type": "int" }
       ]
     },
-    "dividir": {
+    "stopwatch": { "state": "true", "parameters": [] },
+    "resetStopwatch": { "state": "true", "parameters": [] },
+    "sine": {
+      "state": "false",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "cosine": {
+      "state": "false",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "tangent": {
+      "state": "false",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "arcsine": {
+      "state": "false",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "arccosine": {
+      "state": "false",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "arctangent": {
+      "state": "false",
+      "parameters": [{ "category": "Degrees", "type": "int" }]
+    },
+    "pi": { "state": "false", "parameters": [] },
+    "clearLine": {
+      "state": "true",
+      "parameters": [{ "category": "Console Line", "type": "int" }]
+    },
+    "registerString": {
+      "state": "true",
+      "parameters": [{ "category": "Text", "type": "int" }]
+    },
+    "registerNumber": {
+      "state": "true",
+      "parameters": [{ "category": "Number", "type": "int" }]
+    },
+    "rightMotor": {
+      "state": "true",
+      "parameters": [{ "category": "Strength", "type": "int" }]
+    },
+    "leftMotor": {
+      "state": "true",
+      "parameters": [{ "category": "Strength", "type": "int" }]
+    },
+    "adjustColor": {
+      "state": "true",
+      "parameters": [{ "state": "true", "parameters": [] }]
+    },
+    "actuatorScoopAngle": { "state": "true", "parameters": [] },
+    "setPrecision": {
+      "state": "true",
+      "parameters": [{ "category": "Precision", "type": "int" }]
+    },
+    "playNote": {
+      "state": "true",
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Speaker", "type": "int" },
+        { "category": "Musical Note", "type": "int" },
+        { "category": "Time in milliseconds", "type": "int" }
       ]
     },
-    "comentar": {
-      "parameters": [{ "category": "comentário", "type": "texto" }]
-    },
-    "limparconsole": { "parameters": [] },
-    "concatenar": {
+    "playSound": {
+      "state": "true",
       "parameters": [
-        { "category": "Texto A", "type": "texto" },
-        { "category": "Texto B", "type": "texto" }
+        { "category": "Speaker", "type": "int" },
+        { "category": "Frequency", "type": "int" },
+        { "category": "Time in milliseconds", "type": "int" },
+        { "category": "Wave Type", "type": "int" }
       ]
     },
-    "resto": {
+    "changeSoundWave": {
+      "state": "true",
+      "parameters": [{ "category": "Wave Type", "type": "int" }]
+    },
+    "stopSound": {
+      "state": "true",
+      "parameters": [{ "category": "Speaker", "type": "int" }]
+    },
+    "stopAllSounds": { "state": "false", "parameters": [] },
+    "convertToFrequency": {
+      "state": "true",
+      "parameters": [{ "category": "Frequency in Hertz", "type": "int" }]
+    },
+    "convertToHertz": {
+      "state": "true",
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Frequency in the Simulator Unit", "type": "int" }
       ]
     },
-    "negativo": { "parameters": [{ "category": "Número", "type": "numero" }] },
-    "arredondar": {
-      "parameters": [{ "category": "Número", "type": "numero" }]
-    },
-    "substituir": {
+    "playSoundHertz": {
+      "state": "true",
       "parameters": [
-        { "category": "Parâmetro A", "type": "texto" },
-        { "category": "Parâmetro B", "type": "texto" },
-        { "category": "Parâmetro C", "type": "texto" }
+        { "category": "Speaker", "type": "int" },
+        { "category": "Frequency", "type": "int" },
+        { "category": "Time in milliseconds", "type": "int" },
+        { "category": "Wave Type", "type": "int" }
       ]
     },
-    "tempo": { "parameters": [] },
-    "mapeamento": {
+    "sortNumberList": {
+      "state": "false",
+      "parameters": [{ "category": "List number", "type": "int" }]
+    },
+    "reverseNumberList": {
+      "state": "false",
+      "parameters": [{ "category": "List number", "type": "int" }]
+    },
+    "containsNumberList": {
+      "state": "false",
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Mínimo Escala Início", "type": "numero" },
-        { "category": "Máximo Escala Início", "type": "numero" },
-        { "category": "Mínimo Escala Final", "type": "numero" },
-        { "category": "Máximo Escala Final", "type": "numero" }
+        { "category": "List number", "type": "int" },
+        { "category": "Parameter", "type": "int" }
       ]
     },
-    "modulo": { "parameters": [{ "category": "Parâmetro", "type": "numero" }] },
-    "interromper": { "parameters": [] },
-    "corverde": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "corazul": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "corvermelha": {
-      "parameters": [{ "category": "Sensor", "type": "numero" }]
-    },
-    "rotacionar": {
+    "setNumberList": {
+      "state": "false",
       "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Ângulo", "type": "numero" }
+        { "category": "List number", "type": "int" },
+        { "category": "List Position", "type": "int" },
+        { "category": "Parameter", "type": "int" }
       ]
     },
-    "toque": { "parameters": [{ "category": "Sensor", "type": "numero" }] },
-    "anguloatuador": { "parameters": [] },
-    "velocidadeatuador": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
+    "sortStringList": {
+      "state": "false",
+      "parameters": [{ "category": "List number", "type": "int" }]
     },
-    "raizquadrada": {
-      "parameters": [{ "category": "Número", "type": "numero" }]
+    "reverseStringList": {
+      "state": "false",
+      "parameters": [{ "category": "List number", "type": "int" }]
     },
-    "concatenar3": {
+    "containsStringList": {
+      "state": "false",
       "parameters": [
-        { "category": "Texto A", "type": "texto" },
-        { "category": "Texto B", "type": "texto" },
-        { "category": "Texto C", "type": "texto" }
+        { "category": "List number", "type": "int" },
+        { "category": "Parameter", "type": "int" }
       ]
     },
-    "concatenar4": {
+    "setStringList": {
+      "state": "false",
       "parameters": [
-        { "category": "", "type": "texto" },
-        { "category": "Texto A", "type": "texto" },
-        { "category": "Texto B", "type": "texto" },
-        { "category": "Texto C", "type": "texto" },
-        { "category": "Texto D", "type": "texto" }
+        { "category": "List number", "type": "int" },
+        { "category": "List Position", "type": "int" },
+        { "category": "Parameter", "type": "int" }
       ]
     },
-    "textoposicao": {
+    "rightMotorSpeed": { "state": "true", "parameters": []  },
+    "leftMotorSpeed": { "state": "true", "parameters": [] },
+    "writeBoolean": {
+      "state": "false",
       "parameters": [
-        { "category": "Posição", "type": "numero" },
-        { "category": "Texto", "type": "texto" }
+        { "category": "Console Line", "type": "int" },
+        { "category": "Parameter", "type": "boolean" }
       ]
     },
-    "virarnumero": {
-      "parameters": [{ "category": "número", "type": "texto" }]
+    "registerBoolean": {
+      "state": "true",
+      "parameters": [{ "category": "Parameter", "type": "boolean" }]
     },
-    "textotamanho": {
-      "parameters": [{ "category": "Texto", "type": "texto" }]
-    },
-    "acenderled": { "parameters": [{ "category": "Cor", "type": "texto" }] },
-    "acenderledrgb": {
+    "pow": {
+      "state": "false",
       "parameters": [
-        { "category": "Vermelho", "type": "numero" },
-        { "category": "Verde", "type": "numero" },
-        { "category": "Azul", "type": "numero" }
+        { "category": "Base", "type": "int" },
+        { "category": "Exponent", "type": "int" }
       ]
     },
-    "apagarled": { "parameters": [] },
-    "adicionarlistanumero": {
+    "paint": { "state": "true", "parameters": [] },
+    "stopPainting": { "state": "true", "parameters": [] },
+    "pencilColor": {
+      "state": "false", "parameters": []
+    },
+    "pencilRgbColor": {
+      "state": "true",
       "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
+        { "category": "Red", "type": "int" },
+        { "category": "Green", "type": "int" },
+        { "category": "Blue", "type": "int" }
       ]
     },
-    "removerlistanumero": {
-      "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
-      ]
-    },
-    "listanumero": {
-      "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
-      ]
-    },
-    "tamanholistanumero": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "imprimirlistanumero": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "adicionarlistatexto": {
-      "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "texto" }
-      ]
-    },
-    "removerlistatexto": {
-      "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
-      ]
-    },
-    "listatexto": {
-      "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
-      ]
-    },
-    "tamanholistatexto": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "imprimirlistatexto": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "truncar": {
-      "parameters": [{ "category": "Parâmetro", "type": "numero" }]
-    },
-    "concatenar5": {
-      "parameters": [
-        { "category": "Parâmetro A", "type": "texto" },
-        { "category": "Parâmetro B", "type": "texto" },
-        { "category": "Parâmetro C", "type": "texto" },
-        { "category": "Parâmetro D", "type": "texto" },
-        { "category": "Parâmetro E", "type": "texto" }
-      ]
-    },
-    "frenterotacao": {
-      "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Rotações", "type": "numero" }
-      ]
-    },
-    "trasrotacao": {
-      "parameters": [
-        { "category": "Força", "type": "numero" },
-        { "category": "Rotações", "type": "numero" }
-      ]
-    },
-    "registrar": { "parameters": [] },
-    "pararregistro": { "parameters": [] },
-    "limparregistro": { "parameters": [] },
-    "aleatorio": {
-      "parameters": [
-        { "category": "Parâmetro A", "type": "numero" },
-        { "category": "Parâmetro B", "type": "numero" }
-      ]
-    },
-    "temporizador": { "parameters": [] },
-    "zerartemporizador": { "parameters": [] },
-    "seno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "cosseno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "tangente": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arcoseno": { "parameters": [{ "category": "Graus", "type": "numero" }] },
-    "arcocosseno": {
-      "parameters": [{ "category": "Graus", "type": "numero" }]
-    },
-    "arcotangente": {
-      "parameters": [{ "category": "Graus", "type": "numero" }]
-    },
-    "pi": { "parameters": [] },
-    "limparlinha": {
-      "parameters": [{ "category": "Linha do Console", "type": "numero" }]
-    },
-    "registrartexto": {
-      "parameters": [{ "category": "Texto", "type": "texto" }]
-    },
-    "registrarnumero": {
-      "parameters": [{ "category": "Número", "type": "numero" }]
-    },
-    "motordireita": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
-    },
-    "motoresquerda": {
-      "parameters": [{ "category": "Força", "type": "numero" }]
-    },
-    "ajustarcor": {
-      "parameters": [{ "category": "Sensibilidade", "type": "numero" }]
-    },
-    "angulogiroatuador": { "parameters": [] },
-    "ajustarprecisao": {
-      "parameters": [{ "category": "Precisão", "type": "numero" }]
-    },
-    "tocar": {
-      "parameters": [
-        { "category": "Alto-Falante", "type": "numero" },
-        { "category": "Nota Musical", "type": "texto" },
-        { "category": "Tempo em Milissegundos", "type": "numero" }
-      ]
-    },
-    "tocarsom": {
-      "parameters": [
-        { "category": "Alto-Falante", "type": "numero" },
-        { "category": "Frequência", "type": "numero" },
-        { "category": "Tempo em Milissegundos", "type": "numero" },
-        { "category": "Tipo de Onda", "type": "texto" }
-      ]
-    },
-    "ajustaronda": {
-      "parameters": [{ "category": "Tipo de Onda", "type": "texto" }]
-    },
-    "parasom": {
-      "parameters": [{ "category": "Alto-Falante", "type": "numero" }]
-    },
-    "pararsons": { "parameters": [] },
-    "virarfrequencia": {
-      "parameters": [{ "category": "Frequência em Hertz", "type": "numero" }]
-    },
-    "virarhertz": {
-      "parameters": [
-        { "category": "Frequência na Unidade do Simulador", "type": "numero" }
-      ]
-    },
-    "tocarsomhertz": {
-      "parameters": [
-        { "category": "Alto-Falante", "type": "numero" },
-        { "category": "Frequência", "type": "numero" },
-        { "category": "Tempo em Milissegundos", "type": "numero" },
-        { "category": "Tipo de Onda", "type": "texto" }
-      ]
-    },
-    "ordenarlistanumero": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "inverterlistanumero": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "pertencelistanumero": {
-      "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "numero" }
-      ]
-    },
-    "alterarlistanumero": {
-      "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Posição na Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "numero" }
-      ]
-    },
-    "ordenarlistatexto": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "inverterlistatexto": {
-      "parameters": [{ "category": "Número da Lista", "type": "numero" }]
-    },
-    "pertencelistatexto": {
-      "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "numero" }
-      ]
-    },
-    "alterarlistatexto": {
-      "parameters": [
-        { "category": "Número da Lista", "type": "numero" },
-        { "category": "Posição na Lista", "type": "numero" },
-        { "category": "Parâmetro", "type": "texto" }
-      ]
-    },
-    "velocidademotordireita": { "parameters": [] },
-    "velocidademotoresquerda": { "parameters": [] },
-    "escreverbooleano": {
-      "parameters": [
-        { "category": "Linha do Console", "type": "numero" },
-        { "category": "Parâmetro", "type": "booleano" }
-      ]
-    },
-    "registrarbooelano": {
-      "parameters": [{ "category": "Parâmetro", "type": "booleano" }]
-    },
-    "potencia": {
-      "parameters": [
-        { "category": "Base", "type": "numero" },
-        { "category": "Expoente", "type": "numero" }
-      ]
-    },
-    "pintar": { "parameters": [] },
-    "pararpintura": { "parameters": [] },
-    "corpincel": { "parameters": [{ "category": "Cor", "type": "texto" }] },
-    "corpincelrgb": {
-      "parameters": [
-        { "category": "Vermelho", "type": "numero" },
-        { "category": "Verde", "type": "numero" },
-        { "category": "Azul", "type": "numero" }
-      ]
-    },
-    "ligarventilador": { "parameters": [] },
-    "desligarventilador": { "parameters": [] },
-    "temperatura": { "parameters": [] },
-    "temvitima": { "parameters": [] },
-    "forcamotor": { "parameters": [] }
+    "turnFanOn": { "state": "true", "parameters": [] },
+    "turnFanOff": { "state": "true", "parameters": [] },
+    "temperature": { "state": "true", "parameters": [] },
+    "hasAnyVictim": { "state": "true", "parameters": [] },
+    "motorSpeed": { "state": "true", "parameters": [] },
+    "inclination": { "state": "true", "parameters": [] }
   }
 }

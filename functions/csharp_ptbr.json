@@ -8,7 +8,7 @@
   "CFC": true,
   "dictionary": {
     "example": ["<b>"],
-    "types": ["int", "String", "boolean"]
+    "types": ["numero", "texto", "booleano"]
   },
   "functions": {
     "esperar": {
@@ -38,6 +38,7 @@
       "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "direita": {
+      "state": "false",
       "parameters": [{ "category": "Força", "type": "numero" }]
     },
     "esquerda": {
