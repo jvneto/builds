@@ -65,7 +65,7 @@
       "state": "true",
       "parameters": [
         { "category": "Console Line", "type": "int" },
-        { "category": "Text", "type": "int" }
+        { "category": "Text", "type": "string" }
       ]
     },
     "convertToString": {
