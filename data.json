@@ -1,6 +1,6 @@
 {
   "version": "5.1.0",
-  "beta_version": "none",
+  "beta_version": "5.2.0",
   "update_path": {
     "win": "https://www.dropbox.com/s/0kpjlyc6b4rkwpc/sBotics.exe?dl=1",
     "lin": "https://www.dropbox.com/s/stdd8yd6gngkgc1/sBotics.AppImage?dl=1",
