@@ -1,35 +1,35 @@
 {
-  "version": "legacy",
-  "versions":{
-    "windows": "5.2.0",
-    "linux": "5.2.0",
-    "mac_os": "5.2.0"
-  },
-  "beta_versions": {
-    "windows": "5.2.0",
-    "linux": "5.2.0",
-    "mac_os": "5.2.0"
-  },
-  "update_path": {
-    "win": {
-      "state": false,
-      "prefix": "exe",
-      "path": ""
+    "version": "5.2.0",
+    "versions": {
+        "windows": "5.2.0",
+        "linux": "5.2.0",
+        "mac_os": "5.2.0"
     },
-    "lin": {
-      "state": false,
-      "prefix": "AppImage",
-      "path": ""
+    "beta_versions": {
+        "windows": "5.2.0",
+        "linux": "5.2.0",
+        "mac_os": "5.2.0"
     },
-    "os": {
-      "state": true,
-      "prefix": "",
-      "path": "https://www.dropbox.com/s/fkwtspnzc4rxwpb/sBotics.zip?dl=1"
+    "update_path": {
+        "win": {
+            "state": false,
+            "prefix": "exe",
+            "path": ""
+        },
+        "lin": {
+            "state": false,
+            "prefix": "AppImage",
+            "path": ""
+        },
+        "os": {
+            "state": true,
+            "prefix": "",
+            "path": "https://www.dropbox.com/s/fkwtspnzc4rxwpb/sBotics.zip?dl=1"
+        },
+        "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
     },
-    "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
-  },
-  "discord": {
-    "data": "https://discord.com/api/guilds/724343790919221330/widget.json",
-    "members": "https://discord.com/api/v8/invites/fDhUvWbmMV?with_counts=true"
-  }
+    "discord": {
+        "data": "https://discord.com/api/guilds/724343790919221330/widget.json",
+        "members": "https://discord.com/api/v8/invites/fDhUvWbmMV?with_counts=true"
+    }
 }
