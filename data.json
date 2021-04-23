@@ -1,5 +1,5 @@
 {
-  "version": "5.1.0",
+  "version": "legacy",
   "versions":{
     "windows": "5.2.0",
     "linux": "5.2.0",
@@ -24,7 +24,7 @@
     "os": {
       "state": true,
       "prefix": "",
-      "path": "https://www.dropbox.com/s/2f30mqo37g5h0cr/sBotics%20macOS.zip?dl=1"
+      "path": "https://www.dropbox.com/s/fkwtspnzc4rxwpb/sBotics.zip?dl=1"
     },
     "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
   },
