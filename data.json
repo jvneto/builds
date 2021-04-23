@@ -5,7 +5,7 @@
     "linux": "5.2.0",
     "mac_os": "5.2.0"
   },
-  "betas": {
+  "beta_versions": {
     "windows": "5.2.0",
     "linux": "5.2.0",
     "mac_os": "5.2.0"
