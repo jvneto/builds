@@ -1,18 +1,5 @@
 {
-  "add": [
-    "New marker system",
-    "Arenas in the JSON standard",
-    "Tiles have a chance of not meeting perfectly",
-    "New sBotics site",
-    "Markable parts have a symbol",
-    "Possibility to mark a tile",
-    "Changes in the arena editor (need to confirm changes)",
-    "Rescue area has customizable height",
-    "Bug fixes"
-  ],
+  "add": [],
   "improvement": [],
-  "removed": [
-    "Removed arena markers (progress and score failure) [will be reimplemented in the future with updates updates]",
-    "Removed arena objects"
-  ]
+  "removed": []
 }

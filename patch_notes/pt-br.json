@@ -1,18 +1,5 @@
 {
-  "add": [
-    "Sistema novo de marcadores",
-    "Arenas no padrão JSON",
-    "Ladrilhos tem chance de nao se encontrar perfeitamente",
-    "Site novo sBotics",
-    "Peças marcáveis possuem um símbolo",
-    "Possibilidade de marcar um ladrilho",
-    "Alterações no editor de arenas (necessidade de confirmar mudanças)",
-    "Área de resgate tem altura customizável",
-    "Correções de bugs"
-  ],
+  "add": [],
   "improvement": [],
-  "removed": [
-    "Removido marcadores de arena (falha de progresso e pontuação) [será reimplementado no futuro com futuras atualizações]",
-    "Removido objetos de arena"
-  ]
+  "removed": []
 }
