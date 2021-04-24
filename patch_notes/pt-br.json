@@ -1,6 +1,5 @@
 {
     "add": [
-        "<style>code {background-color: #eee;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;}</style>",
         "Posição do robo nao reinicia toda vez que arena é recarregada",
         "Corrigido um problema que não permitia o uso da palavra \"valor\" em códigos",
         "Possibilidade de usar Vector2, Vector3 e Quaternion em C#",
@@ -45,7 +44,8 @@
     "improvement": [
         "Aviso! É necessário adaptar seu código, mais informações abaixo na parte sobre a linguagem",
         "Referência para os Keybinds: https://docs.unity3d.com/ScriptReference/KeyCode.html (não tem ainda como utilizar scroll)",
-        "Aviso! <br> Declaração de variáveis não podem chamar funções <br> <b>Exemplo: rEduc</b> <br> <code>texto minhaPrimeiraLeitura = cor(1) # PROIBIDO!!!!</code>"
+        "<b>Aviso!</b> Declaração de variáveis não podem chamar funções <br> -> rEduc: <br> <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;color: #f1f1f1\"> texto minhaPrimeiraLeitura = cor(1) # PROIBIDO!!!!</code> <br> -> C# (dentro do main se aplica normalmente)  <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;color: #f1f1f1\">static string teste = bc.DetectColor(0); # PROIBIDO!!!!</code>",
+        "<b>Mudanças na edição de temas</b> <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;color: #f24141\">- colorSchema.JSON => ColorTheme.json (arquivo renomeado)\n- \"imagem\" => \"image\" (propriedade renomeada)\n- \"buttonpressed\" => \"button_pressed\" (propriedade renomeada)\n- \"buttonhightlight\" => \"button_highlight\" (propriedade renomeada)</code>"
     ],
     "removed": [
         "Removido atalhos CTRL+J, CTRL+L, CTRL+M",
