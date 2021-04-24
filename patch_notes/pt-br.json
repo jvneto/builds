@@ -55,7 +55,7 @@
         "<b>Outras mudanças na Linguagem C#</b> Seus códigos DEVEM conter um void Main() {} que engloba todo o código ou pelo menos suas funções principais, ou se não seu código não compilará. Devido a mudança na forma que o C# está sendo processada estamos experienciando alguns problemas em relação a memória usada e dependendo de sua lógica o simulador pode experienciar crashes."
     ],
     "removed": [
-        "Removido atalhos <div style=\"display: flex;flex-direction: row;\" ><code style=\"background-color: #343a40;border-radius: 3px;font-weight: 600padding: 0 3px;color: #f1f1f1\">CTRL+J</code>, <code style=\"background-color: #343a40;border-radius: 3px;font-weight: 600padding: 0 3px;color: #f1f1f1; padding: 5px\">CTRL+L</code>, <code style=\"background-color: #343a40;border-radius: 3px;font-weight: 600padding: 0 3px;color: #f1f1f1; padding: 5px\">CTRL+M</code></div>",
+        "Removido atalhos <div style=\"display: flex;flex-direction: row;\" ><code style=\"background-color: #343a40;border-radius: 3px;font-weight: 600padding: 0 3px;color: #f1f1f1;padding: 5px\">CTRL + J</code>, <code style=\"background-color: #343a40;border-radius: 3px;font-weight: 600padding: 0 3px;color: #f1f1f1; padding: 5px\">CTRL + L</code>, <code style=\"background-color: #343a40;border-radius: 3px;font-weight: 600padding: 0 3px;color: #f1f1f1; padding: 5px\">CTRL + M</code></div>",
         "Peças elevadas não geram mais com base",
         "Numero de marcadores não vai a 0 quando a linha não se encontra",
         "Removida a necessidade de por: int forIteratorLevelN = 0; int[] forIteratorLevel = new int[10];"
