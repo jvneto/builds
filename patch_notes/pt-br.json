@@ -44,11 +44,12 @@
     "improvement": [
         "Aviso! É necessário adaptar seu código, mais informações abaixo na parte sobre a linguagem",
         "Referência para os Keybinds: <a href=\"https://docs.unity3d.com/ScriptReference/KeyCode.html\">https://docs.unity3d.com/ScriptReference/KeyCode.html</a> (não tem ainda como utilizar scroll)",
-        "<b>Aviso!</b> Declaração de variáveis não podem chamar funções <br> -> rEduc: <br> <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;color: #f1f1f1\"> texto minhaPrimeiraLeitura = cor(1) # PROIBIDO!!!!</code> <br> -> C# (dentro do main se aplica normalmente)  <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;color: #f1f1f1\">static string teste = bc.DetectColor(0); # PROIBIDO!!!!</code>",
-        "<b>Mudanças na edição de temas</b> <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;color: #f24141\">- colorSchema.JSON => ColorTheme.json (arquivo renomeado)\n- \"imagem\" => \"image\" (propriedade renomeada)\n- \"buttonpressed\" => \"button_pressed\" (propriedade renomeada)\n- \"buttonhightlight\" => \"button_highlight\" (propriedade renomeada)</code>"
+        "<b>Aviso!</b> Declaração de variáveis não podem chamar funções <br> -> rEduc: <br> <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;font-weight: 600padding: 0 3px;color: #f1f1f1\"> texto minhaPrimeiraLeitura = cor(1) # PROIBIDO!!!!</code>-> C# (dentro do main se aplica normalmente)  <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;font-weight: 600padding: 0 3px;color: #f1f1f1\">static string teste = bc.DetectColor(0); # PROIBIDO!!!!</code>",
+        "<b>Mudanças na edição de temas</b> <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace; font-weight: 600; padding: 0 3px;color: #b01a1a\"> - colorSchema.JSON => ColorTheme.json (arquivo renomeado)<br>- \"imagem\" => \"image\" (propriedade renomeada)<br>- \"buttonpressed\" => \"button_pressed\" (propriedade renomeada)<br>- \"buttonhightlight\" => \"button_highlight\" (propriedade renomeada)</code>"
+        ""
     ],
     "removed": [
-        "Removido atalhos CTRL+J, CTRL+L, CTRL+M",
+        "Removido atalhos <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;font-weight: 600padding: 0 3px;color: #f1f1f1\">CTRL+J</code>, <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;font-weight: 600padding: 0 3px;color: #f1f1f1\">CTRL+L</code>, <code style=\"background-color: #343a40;border-radius: 3px;font-family: courier, monospace;font-weight: 600padding: 0 3px;color: #f1f1f1\">CTRL+M</code>",
         "Peças elevadas não geram mais com base",
         "Numero de marcadores não vai a 0 quando a linha não se encontra"
     ]
