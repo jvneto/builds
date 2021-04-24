@@ -1,5 +1,55 @@
 {
-    "add": [],
-    "improvement": [],
-    "removed": []
+    "add": [
+        "<style>code {background-color: #eee;border-radius: 3px;font-family: courier, monospace;padding: 0 3px;}</style>",
+        "Posição do robo nao reinicia toda vez que arena é recarregada",
+        "Corrigido um problema que não permitia o uso da palavra \"valor\" em códigos",
+        "Possibilidade de usar Vector2, Vector3 e Quaternion em C#",
+        "Suporte a classes e funções C#",
+        "Caso não inicie o simulador pelo launcher, ele utiliza a lingua do seu sistema",
+        "Padrão de exportação de arquivos é .re para rEduc e .cs para C#",
+        "Arenas podem ser salvas em .JSON",
+        "Câmera não tem limite de movimentação",
+        "Melhorias na interface do editor de arenas",
+        "Correções na textura dos ladrilhos C",
+        "Arquivo de KeyBinds.JSON novo/alterado",
+        "Configuração \"marker_start_margin\" para arenas de quantos ladrilhos a partir da primeira peça não pode inserir marcadores (padrão OBR: 3)",
+        "Configuração \"place_markers_after_rescue_zone\" para arenas de poder colocar marcadores após saída da sala de resgate",
+        "Gangorras não quebram mais o algoritimo de detecção de linha",
+        "Opções de \"spawn do robô\" (quais pontos ele vai aparecer depois de falhas de progresso) da sala de resgate: entrada e saída ou base da rampa",
+        "Opção de arena de desativar botão de \"desistir\"",
+        "Opção de arena de \"desistir\" dar penalidade de 1 minuto e requerer 20 segundos para executar novas tentativas",
+        "Novo KeyBinding.json",
+        "Posicionamento de marcadores usa câmera principal",
+        "KeyBinds são globais e não só modificam a câmera principal mas também os outros scripts de movimento: Cursor roxo do editor e câmera de pré-visualização de arena",
+        "Desalinhamento de peças elevadas/rampas com o resto da arena consertado",
+        "Desencaixe entre sala de resgate e resto da arena minimamente alterado",
+        "Rampas não geram mais base (assim como as peças elevadas)",
+        "Descrições da arena agora aparecem",
+        "Altura maxima do editor de arenas foi de 9 para 100",
+        "É possível mover o cursor roxo verticalmente no editor de arenas com Z e X",
+        "Ladrilhos de erro mostram sua altura",
+        "Ladrilho 26 alterado para \"Encruzilhada T Dupla\"",
+        "Ladrilho 28 de curvas adicionado T-invertido",
+        "É possível desprender (e rotacionar) a câmera do cursor roxo do editor de arenas apertando O",
+        "Arenas da OBR geram rampas",
+        "Dificuldade afeta rampas/peças elevadas",
+        "Dificuldades de arenas geradas alteradas",
+        "Gangorras geram nas arenas OBR e RoboCup",
+        "w,a,s,d, z e x movem a câmera principal EM SEU EIXO em oposição ao mundo (como era feito antes)",
+        "Botao de voltar das configuracoes iniais salva configuracoes",
+        "Textura do ladrilho de início",
+        "Seguir linha reconhece múltiplos níveis de arenas",
+        "Robô salva ultimo atuador usado",
+        "Correções gerais de bugs"
+    ],
+    "improvement": [
+        "Aviso! É necessário adaptar seu código, mais informações abaixo na parte sobre a linguagem",
+        "Referência para os Keybinds: https://docs.unity3d.com/ScriptReference/KeyCode.html (não tem ainda como utilizar scroll)",
+        "Aviso! <br> Declaração de variáveis não podem chamar funções <br> <b>Exemplo: rEduc</b> <br> <code>texto minhaPrimeiraLeitura = cor(1) # PROIBIDO!!!!</code>"
+    ],
+    "removed": [
+        "Removido atalhos CTRL+J, CTRL+L, CTRL+M",
+        "Peças elevadas não geram mais com base",
+        "Numero de marcadores não vai a 0 quando a linha não se encontra"
+    ]
 }
