@@ -23,8 +23,8 @@
         },
         "os": {
             "state": true,
-            "prefix": "",
-            "path": "https://www.dropbox.com/s/fkwtspnzc4rxwpb/sBotics.zip?dl=1"
+            "prefix": "dmg",
+            "path": "https://github.com/sBotics/launcher/releases/download/v2.4.1/sBotics-2.4.1.dmg"
         },
         "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
     },
