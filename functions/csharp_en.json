@@ -349,7 +349,7 @@
         { "category": "Speaker", "type": "int" },
         { "category": "Frequency", "type": "int" },
         { "category": "Time in milliseconds", "type": "int" },
-        { "category": "Wave Type", "type": "int" }
+        { "category": "Wave Type", "type": "string" }
       ]
     },
     "changeSoundWave": {
@@ -377,7 +377,7 @@
         { "category": "Speaker", "type": "int" },
         { "category": "Frequency", "type": "int" },
         { "category": "Time in milliseconds", "type": "int" },
-        { "category": "Wave Type", "type": "int" }
+        { "category": "Wave Type", "type": "string" }
       ]
     },
     "sortNumberList": {
