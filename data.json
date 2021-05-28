@@ -2,13 +2,13 @@
     "version": "5.2.0",
     "versions": {
         "windows": "5.2.0",
-        "linux": "5.2.0",
-        "mac_os": "5.2.0"
+        "linux":   "5.2.0",
+        "mac_os":  "5.2.0"
     },
     "beta_versions": {
-        "windows": "5.3.0",
-        "linux": "5.3.0",
-        "mac_os": "5.3.0"
+        "windows": "1.6.0.1",
+        "linux":   "1.6.0.1",
+        "mac_os":  "1.6.0.1"
     },
     "update_path": {
         "win": {
