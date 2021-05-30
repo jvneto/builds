@@ -12,14 +12,14 @@
     },
     "update_path": {
         "win": {
-            "state": true,
-            "prefix": "exe",
-            "path": "https://github.com/sBotics/launcher/releases/download/v2.4.3/sBotics-Setup-2.4.3.exe"
+          "state": true,
+          "prefix": "exe",
+          "path": "https://github.com/sBotics/launcher/releases/download/v2.4.5/sBotics-Setup-2.4.5.exe"
         },
         "lin": {
-            "state": true,
-            "prefix": "AppImage",
-            "path": "https://github.com/sBotics/launcher/releases/download/v2.4.3/sBotics-2.4.3.AppImage"
+          "state": true,
+          "prefix": "AppImage",
+          "path": "https://github.com/sBotics/launcher/releases/download/v2.4.5/sBotics-2.4.5.AppImage"
         },
         "os": {
             "state": true,
