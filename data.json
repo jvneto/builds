@@ -6,9 +6,9 @@
     "mac_os": "5.2.0"
   },
   "beta_versions": {
-    "windows": "1.6.0.1",
-    "linux": "1.6.0.1",
-    "mac_os": "1.6.0.1"
+    "windows": "1.6.0.2",
+    "linux": "1.6.0.2",
+    "mac_os": "1.6.0.2"
   },
   "update_path": {
     "win": {
