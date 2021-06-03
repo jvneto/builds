@@ -24,7 +24,7 @@
     "os": {
       "state": true,
       "prefix": "dmg",
-      "path": "https://www.dropbox.com/s/tpeql5bjkyo8h0t/sBotics.dmg?dl=1"
+      "path": "https://github.com/sBotics/launcher/releases/download/v3.0.17/sBotics-3.0.17.dmg"
     },
     "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
   },
