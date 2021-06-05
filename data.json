@@ -1,14 +1,14 @@
 {
-  "version": "1.6.0.2",
+  "version": "1.6.0.3",
   "versions": {
-    "windows": "1.6.0.2",
-    "linux": "1.6.0.2",
+    "windows": "1.6.0.3",
+    "linux": "1.6.0.3",
     "mac_os": "1.6.0.2"
   },
   "beta_versions": {
-    "windows": "1.6.0.2",
-    "linux": "1.6.0.2",
-    "mac_os": "1.6.0.2"
+    "windows": "1.6.0.3",
+    "linux": "1.6.0.3",
+    "mac_os": "1.6.0.3"
   },
   "update_path": {
     "win": {
