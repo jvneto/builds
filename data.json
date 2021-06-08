@@ -1,14 +1,34 @@
 {
-  "version": "1.6.0.3",
+  "version": "1.6.0.4",
   "versions": {
-    "windows": "1.6.0.3",
-    "linux": "1.6.0.3",
+    "windows": "1.6.0.4",
+    "linux": "1.6.0.4",
     "mac_os": "1.6.0.2"
   },
   "beta_versions": {
-    "windows": "1.6.0.3",
-    "linux": "1.6.0.3",
-    "mac_os": "1.6.0.3"
+    "windows": "1.6.0.4",
+    "linux": "1.6.0.4",
+    "mac_os": "1.6.0.4"
+  },
+  "update_sbotics": {
+    "windows": {
+      "force": {
+        "sbotics": false,
+        "StreamingAssets": false
+      }
+    },
+    "linux": {
+      "force": {
+        "sbotics": false,
+        "StreamingAssets": false
+      }
+    },
+    "mac_os": {
+      "force": {
+        "sbotics": false,
+        "StreamingAssets": false
+      }
+    }
   },
   "update_path": {
     "win": {
