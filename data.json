@@ -7,10 +7,9 @@
     "macOS": "1.6.0.2"
   },
   "beta_versions": {
-    "windows": "1.6.0.4",
-    "linux": "1.6.0.4",
-    "mac_os": "1.6.0.4",
-    "macOS": "1.6.0.4"
+    "windows": "1.6.0.5",
+    "linux": "1.6.0.5",
+    "macOS": "1.6.0.5"
   },
   "update_sbotics": {
     "windows": {
