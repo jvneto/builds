@@ -542,6 +542,7 @@
     "temperature": { "state": "true", "parameters": [] },
     "hasAnyVictim": { "state": "true", "parameters": [] },
     "motorSpeed": { "state": "true", "parameters": [] },
-    "inclination": { "state": "true", "parameters": [] }
+    "inclination": { "state": "true", "parameters": [] },
+    "stopTask": { "state": "true", "parameters": [] }
   }
 }

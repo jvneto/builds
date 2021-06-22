@@ -465,6 +465,7 @@
     "desligarventilador": { "state": "true", "parameters": [] },
     "temperatura": { "state": "true", "parameters": [] },
     "temvitima": { "state": "true", "parameters": [] },
-    "forcamotor": { "state": "true", "parameters": [] }
+    "forcamotor": { "state": "true", "parameters": [] },
+    "parartarefa": { "state": "true", "parameters": [] }
   }
 }
