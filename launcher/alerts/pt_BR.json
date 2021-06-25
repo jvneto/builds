@@ -6,7 +6,8 @@
     "fixed": false,
     "icon": true,
     "locales": ["BR"],
-    "regions": ["SP", "RN"]
+    "regions": ["SP", "RN"],
+    "state": false
   },
   {
     "type": "info",
@@ -15,6 +16,7 @@
     "fixed": true,
     "icon": false,
     "locales": ["BR"],
-    "regions": ["SP", "RN"]
+    "regions": ["SP", "RN"],
+    "state": true
   }
 ]
