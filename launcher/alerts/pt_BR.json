@@ -1,7 +1,7 @@
 [
   {
     "type": "info",
-    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso!</strong></h5><p>Vocês tem até <strong>SEXTA-FEIRA 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão no FIM DE SEMANA. Elas serão registradas na sexta quando enviarei mais uma mensagem avisando em qual horário as rodadas ocorrerão (e lembrando quem esqueceu de participar para participar :P) </p>",
+    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso!</strong></h5><p>Vocês tem até <strong>SEXTA-FEIRA 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão no <strong>FIM DE SEMANA</strong>. Mais informação na página de competição.</p>",
     "message": "Amistoso rolando pessoal!",
     "fixed": false,
     "icon": false,
