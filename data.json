@@ -12,7 +12,7 @@
     "macOS": "1.6.0.12"
   },
   "update_launcher": {
-    "sbotics": true,
+    "sbotics": false,
     "launcher": false
   },
   "update_path": {
