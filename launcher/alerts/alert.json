@@ -4,6 +4,7 @@
     "html": "",
     "message": "Amistoso rolando pessoal!",
     "fixed": false,
+    "icon": true,
     "language": "pt_BR",
     "locales": ["BR"],
     "regions": ["SP", "RN"]
@@ -13,6 +14,7 @@
     "html": "",
     "message": "Amistoso rolando pessoal!",
     "fixed": false,
+    "icon": true,
     "language": "en",
     "locales": ["BR"],
     "regions": ["SP", "RN"]
