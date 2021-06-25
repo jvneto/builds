@@ -12,8 +12,8 @@
     "macOS": "1.6.0.11"
   },
   "update_launcher": {
-    "sbotics": true,
-    "launcher": true
+    "sbotics": false,
+    "launcher": false
   },
   "update_path": {
     "win": {
