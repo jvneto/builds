@@ -1,22 +1,18 @@
 {
   "pt_BR": [
     {
-      "id": "1",
       "type": "info",
       "html": "",
       "message": "Amistoso rolando pessoal!",
-      "link": "w",
-      "saveView": ""
+      "fixed": false
     }
   ],
   "en": [
     {
-      "id": "1",
       "type": "danger",
       "html": "",
       "message": "Estamos em processo de update, instabilidade podem ocorre!",
-      "link": "",
-      "saveView": ""
+      "fixed": false
     }
   ]
 }
