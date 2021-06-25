@@ -8,5 +8,15 @@
     "locales": ["BR"],
     "regions": [],
     "state": true
+  },
+  {
+    "type": "warning",
+    "html": "",
+    "message": "Mensagem de teste Olá Mundo",
+    "fixed": true,
+    "icon": true,
+    "locales": ["BR"],
+    "regions": ["RN"],
+    "state": true
   }
 ]
