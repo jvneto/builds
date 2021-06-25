@@ -11,25 +11,9 @@
     "linux": "1.6.0.11",
     "macOS": "1.6.0.11"
   },
-  "update_sbotics": {
-    "windows": {
-      "force": {
-        "sbotics": false,
-        "StreamingAssets": false
-      }
-    },
-    "linux": {
-      "force": {
-        "sbotics": false,
-        "StreamingAssets": false
-      }
-    },
-    "mac_os": {
-      "force": {
-        "sbotics": false,
-        "StreamingAssets": false
-      }
-    }
+  "update_launcher": {
+    "sbotics": false,
+    "launcher": false
   },
   "update_path": {
     "win": {
