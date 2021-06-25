@@ -1,18 +1,20 @@
-{
-  "pt_BR": [
-    {
-      "type": "info",
-      "html": "",
-      "message": "Amistoso rolando pessoal!",
-      "fixed": false
-    }
-  ],
-  "en": [
-    {
-      "type": "danger",
-      "html": "",
-      "message": "Estamos em processo de update, instabilidade podem ocorre!",
-      "fixed": false
-    }
-  ]
-}
+[
+  {
+    "type": "info",
+    "html": "",
+    "message": "Amistoso rolando pessoal!",
+    "fixed": false,
+    "language": "pt_BR",
+    "locales": ["BR"],
+    "regions": ["SP", "RN"]
+  },
+  {
+    "type": "info",
+    "html": "",
+    "message": "Amistoso rolando pessoal!",
+    "fixed": false,
+    "language": "en",
+    "locales": ["BR"],
+    "regions": ["SP", "RN"]
+  }
+]
