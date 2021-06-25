@@ -1,22 +1,12 @@
 [
   {
-    "type": "warning",
-    "html": "",
-    "message": "We are in the update process, instabilities may occur!",
-    "fixed": false,
-    "icon": true,
-    "locales": ["BR"],
-    "regions": ["SP", "RN"],
-    "state": false
-  },
-  {
     "type": "info",
     "html": "<h5 class=\"alert-heading\"><strong>Registration for the friendly is now open!</strong></h5><p>You have until <strong>FRIDAY 9 pm (UTC-3, BRT, Brasilia)</strong> to apply.</p> <hr /><p class=\"mb-0\">The rounds will take place on the WEEKEND. They will be registered on Friday when I will send another message telling you what time the rounds will take place (and remembering who forgot to participate in order to participate :P)</p>",
     "message": "Amistoso rolando pessoal!",
     "fixed": false,
-    "icon": true,
+    "icon": false,
     "locales": ["BR"],
-    "regions": ["SP", "RN"],
+    "regions": [],
     "state": true
   }
 ]
