@@ -1,15 +1,15 @@
 {
-  "version": "1.6.0.15",
+  "version": "1.6.0.16",
   "versions": {
-    "windows": "1.6.0.15",
-    "linux": "1.6.0.15",
+    "windows": "1.6.0.16",
+    "linux": "1.6.0.16",
     "mac_os": "1.6.0.2",
     "macOS": "1.6.0.2"
   },
   "beta_versions": {
-    "windows": "1.6.0.15",
-    "linux": "1.6.0.15",
-    "macOS": "1.6.0.15"
+    "windows": "1.6.0.16",
+    "linux": "1.6.0.16",
+    "macOS": "1.6.0.16"
   },
   "update_launcher": {
     "sbotics": false,
@@ -19,17 +19,17 @@
     "win": {
       "state": true,
       "prefix": "exe",
-      "path": "https://github.com/sBotics/launcher/releases/download/v3.2.0/sBotics-Setup-3.2.0.exe"
+      "path": "https://github.com/sBotics/launcher/releases/download/v3.2.1/sBotics-Setup-3.2.1.exe"
     },
     "lin": {
       "state": true,
       "prefix": "AppImage",
-      "path": "https://github.com/sBotics/launcher/releases/download/v3.2.0/sBotics-3.2.0.AppImage"
+      "path": "https://github.com/sBotics/launcher/releases/download/v3.2.1/sBotics-3.2.1.AppImage"
     },
     "os": {
       "state": true,
       "prefix": "dmg",
-      "path": "https://github.com/sBotics/launcher/releases/download/v3.2.0/sBotics-3.2.0.dmg"
+      "path": "https://github.com/sBotics/launcher/releases/download/v3.2.1/sBotics-3.2.1.dmg"
     },
     "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
   },
