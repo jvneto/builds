@@ -1,31 +1,3 @@
 {
-  "competition": [
-    {
-      "title": "[BR] 2º Amistoso sBotics - Nível 1",
-      "description": "Amistoso que tenta testar os sistemas e preparar os alunos para a OBR. Aviso: As arenas são feitas pelos desenvolvedores, não pela equipe da OBR.",
-      "open_in": "ABRE EM 26/06/2021",
-      "img": "https://github.com/sBotics/builds/blob/main/launcher/Amistoso.png?raw=true",
-      "url": "https://cbotics.weduc.natalnet.br/contests/3beae1e6-4707-401f-a158-6065f33ac1dd",
-      "locales": ["BR"],
-      "regions": []
-    },
-    {
-      "title": "[BR] 2º Amistoso sBotics - Nível 2",
-      "description": "Amistoso que tenta testar os sistemas e preparar os alunos para a OBR. Aviso: As arenas são feitas pelos desenvolvedores, não pela equipe da OBR.",
-      "open_in": "ABRE EM 26/06/2021",
-      "img": "https://github.com/sBotics/builds/blob/main/launcher/Amistoso.png?raw=true",
-      "url": "https://cbotics.weduc.natalnet.br/contests/78af46f4-8b8c-4aa8-b3ce-28e00e04d9fd",
-      "locales": ["BR"],
-      "regions": []
-    },
-    {
-      "title": "RoboCupJunior 2021 - Rescue Line Simulation - Finals",
-      "description": "The‌ ‌simulation‌ ‌competition‌ ‌(Line‌ ‌Simulation)‌ ‌was‌ ‌developed‌ ‌in‌ ‌accordance‌ ‌with‌ ‌the‌‌ RoboCupJunior‌ ‌2021‌ ‌Rescue‌‌Line‌‌ ruleset‌.‌‌ Therefore,‌‌ the‌‌ main‌‌ purpose‌‌ of‌‌ this‌‌ competition‌‌ is‌ ‌to‌ ‌program‌ ‌a‌ ‌wheeled‌ ‌mobile‌ ‌robot‌‌ that‌‌ must‌‌ be‌‌ able‌‌ to‌‌ carry‌‌ out‌‌ a‌‌ rescue‌‌ mission‌‌ in‌‌ a‌‌ fully‌ ‌autonomous‌ ‌mode‌ ‌with‌ ‌no‌ ‌human‌ interference.‌ ‌The‌ ‌simulated‌ ‌environment‌ ‌is‌‌ composed‌‌ of‌‌ obstacles,‌‌ debris,‌‌ hills‌‌ and‌‌ path‌‌tracking‌‌ challenges‌‌ that‌‌ leads‌‌ to‌‌ an‌‌ evacuation‌‌ zone,‌‌ where‌‌ the‌‌ robot‌‌ finally‌‌ finds‌‌ victims‌‌ that‌‌ must‌‌ be‌‌ transported‌‌ to‌‌ a‌‌ safe‌‌ evacuation‌‌ point‌‌ together‌ ‌with‌ ‌a‌ ‌rescue‌ ‌kit.‌ ‌After‌ ‌a‌ ‌successful‌ ‌rescue,‌ ‌the‌ ‌robot‌ ‌continues‌ ‌on‌ ‌its‌ ‌mission‌‌ throughout‌ ‌the‌ ‌disaster‌ ‌site,‌ ‌until‌ ‌it‌ ‌achieves‌ ‌the‌ ‌final‌ ‌exit.‌ ‌Time‌ ‌and‌ ‌technical‌ ‌skills‌ ‌are‌‌ essential!‌ ‌Come‌ ‌prepared‌ ‌to‌ ‌be‌ ‌the‌ ‌most‌ ‌successful‌ ‌rescue‌ ‌team!",
-      "open_in": "Competição Oficial",
-      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/QRese5W0Nkf99IQZDXBJVwUAb7pfJzCjGxLtVORN.png",
-      "url": "https://cbotics.weduc.natalnet.br/contests/3a9f5997-12ca-44f6-adf3-4af54e48c940",
-      "locales": [],
-      "regions": []
-    }
-  ]
+  "competition": []
 }
