@@ -1,22 +1,12 @@
 [
   {
     "type": "info",
-    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso!</strong></h5><p>Vocês tem até <strong>SEXTA-FEIRA 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão no <strong>FIM DE SEMANA</strong>. Mais informação na página de competição.</p>",
+    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso oficial Esquenta OBR!</strong></h5><p>Vocês tem até <strong>SÁBADO 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão no <strong>DOMINGO</strong>. Mais informação na página de competição.</p>",
     "message": "Amistoso rolando pessoal!",
     "fixed": false,
     "icon": false,
     "locales": ["BR"],
     "regions": [],
-    "state": false
-  },
-  {
-    "state": false,
-    "title": "[BR] 2º Amistoso sBotics - Nível 1",
-    "description": "Amistoso que tenta testar os sistemas e preparar os alunos para a OBR. Aviso: As arenas são feitas pelos desenvolvedores, não pela equipe da OBR.",
-    "open_in": "ABRE EM 26/06/2021",
-    "img": "https://github.com/sBotics/builds/blob/main/launcher/Amistoso.png?raw=true",
-    "url": "https://cbotics.weduc.natalnet.br/contests/3beae1e6-4707-401f-a158-6065f33ac1dd",
-    "locales": ["BR"],
-    "regions": []
+    "state": true
   }
 ]
