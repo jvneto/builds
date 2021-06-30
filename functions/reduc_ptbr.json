@@ -513,7 +513,7 @@
         { "category": "Parâmetro", "type": "booleano" }
       ]
     },
-    "registrarbooelano": {
+    "registrarbooleano": {
       "state": "true",
       "parameters": [{ "category": "Parâmetro", "type": "booleano" }]
     },
