@@ -29,7 +29,7 @@
     "os": {
       "state": true,
       "prefix": "dmg",
-      "path": "https://github.com/sBotics/launcher/releases/download/v3.2.1/sBotics-3.2.1.dmg"
+      "path": ""
     },
     "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
   },
