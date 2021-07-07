@@ -5,6 +5,7 @@
     "message": "",
     "fixed": false,
     "icon": false,
+    "hiddenTime": 3500,
     "locales": [
       "BR"
     ],
@@ -17,6 +18,7 @@
     "message": "",
     "fixed": false,
     "icon": true,
+    "hiddenTime": 5000,
     "locales": [
       "BR"
     ],
