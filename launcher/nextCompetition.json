@@ -1,5 +1,28 @@
 {
   "competition": [
-    
+    {
+      "state": true,
+      "title": "2° Amistoso Esquenta OBR! - Nível 1",
+      "description": "<a style=\"text-decoration: none;\" href=\"https://www.instagram.com/p/CQtTynShhS1/\" target=\"_blank\">Para mais informações clique aqui.</a>",
+      "open_in": "ABRE EM 11/07/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/41MEs5tcj9O7cMZgGS1uzzxuZAO617U1AWu6D5DB.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/b99c5bc3-3a43-44d1-9ffb-23b10d1ce716",
+      "locales": [
+        "BR"
+      ],
+      "regions": []
+    },
+    {
+      "state": true,
+      "title": "2° Amistoso Esquenta OBR! - Nível 2",
+      "description": "<a style=\"text-decoration: none;\" href=\"https://www.instagram.com/p/CQtTynShhS1/\" target=\"_blank\">Para mais informações clique aqui.</a>",
+      "open_in": "ABRE EM 11/07/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/41MEs5tcj9O7cMZgGS1uzzxuZAO617U1AWu6D5DB.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/b0507db1-defa-4082-9310-d31f60c2407b",
+      "locales": [
+        "BR"
+      ],
+      "regions": []
+    }
   ]
 }
