@@ -13,7 +13,7 @@
   },
   {
     "type": "danger",
-    "html": "Realizamos a <i style=\"display: inline\">última</i> atualização gráfica antes da OBR. Calibre seu robô! <a href=\"https://github.com/sBotics/builds/blob/main/launcher/Update.md\" target=\"_blank\" >Saiba mais</a>",
+    "html": "<div>Realizamos a <i style=\"display: inline\">última</i> atualização gráfica antes da OBR. Calibre seu robô! <a href=\"https://github.com/sBotics/builds/blob/main/launcher/Update.md\" target=\"_blank\" >Saiba mais</a></div>",
     "message": "",
     "fixed": false,
     "icon": true,
