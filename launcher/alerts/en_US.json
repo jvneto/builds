@@ -24,5 +24,18 @@
     ],
     "regions": [],
     "state": true
+  },
+  {
+    "type": "danger",
+    "html": "<div><strong>NOTICE!</strong> We from the sBotics team are already aware that there is a failure when trying to save or compile, some code done in rEduc, we are now meeting to fix this failure. Soon a correction will be released, I ask everyone's understanding and that they wait for this correction.</div>",
+    "message": "",
+    "fixed": true,
+    "icon": true,
+    "hiddenTime": 0,
+    "locales": [
+      "BR"
+    ],
+    "regions": [],
+    "state": true
   }
 ]
