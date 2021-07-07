@@ -5,7 +5,7 @@
     "message": "",
     "fixed": false,
     "icon": false,
-    "hiddenTime": 3500,
+    "hiddenTime": 5000,
     "locales": [
       "BR"
     ],
