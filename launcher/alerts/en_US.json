@@ -13,7 +13,7 @@
   },
   {
     "type": "danger",
-    "html": "<div>The <i style=\"display: inline\">last</i> graphical tweaks before the B.R.O. are out. Calibrate you robot! <a href=\"https://github.com/sBotics/builds/blob/main/launcher/Update.md\" target=\"_blank\" >Saiba mais</a></div>",
+    "html": "<div>The <i style=\"display: inline\">last</i> graphical tweaks before the B.R.O. are out. Calibrate you robot! <a href=\"https://github.com/sBotics/builds/blob/main/launcher/Update.md\" target=\"_blank\" style=\"color: white\" >More Details</a></div>",
     "message": "",
     "fixed": false,
     "icon": true,
