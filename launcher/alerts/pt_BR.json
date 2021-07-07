@@ -12,10 +12,10 @@
     "state": true
   },
   {
-    "type": "info",
-    "html": "Realizamos a <i>última</i> atualização gráfica antes da OBR. Calibre seu robô!",
+    "type": "danger",
+    "html": "Realizamos a <i style=\"display: inline\">última</i> atualização gráfica antes da OBR. Calibre seu robô!",
     "message": "",
-    "fixed": true,
+    "fixed": false,
     "icon": true,
     "locales": [
       "BR"
