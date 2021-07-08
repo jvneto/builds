@@ -5,6 +5,20 @@
     "message": "",
     "fixed": false,
     "icon": false,
+    "hiddenTime": 5000,
+    "locales": [
+      "BR"
+    ],
+    "regions": [],
+    "state": true
+  },
+  {
+    "type": "warning",
+    "html": "<div>The <i style=\"display: inline\">last</i> graphical tweaks before the B.R.O. are out. Calibrate you robot! <a href=\"https://github.com/sBotics/builds/blob/main/launcher/Update.md\" target=\"_blank\" style=\"color: white\" >More Details</a></div>",
+    "message": "",
+    "fixed": false,
+    "icon": true,
+    "hiddenTime": 0,
     "locales": [
       "BR"
     ],
@@ -13,10 +27,11 @@
   },
   {
     "type": "danger",
-    "html": "<div>The <i style=\"display: inline\">last</i> graphical tweaks before the B.R.O. are out. Calibrate you robot! <a href=\"https://github.com/sBotics/builds/blob/main/launcher/Update.md\" target=\"_blank\" >Saiba mais</a></div>",
+    "html": "<div><strong>NOTICE!</strong> We from the sBotics team are already aware that there is a failure when trying to save or compile, some code done in rEduc, we are now meeting to fix this failure. Soon a correction will be released, I ask everyone's understanding and that they wait for this correction.</div>",
     "message": "",
-    "fixed": false,
+    "fixed": true,
     "icon": true,
+    "hiddenTime": 0,
     "locales": [
       "BR"
     ],
