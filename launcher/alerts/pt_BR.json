@@ -24,18 +24,5 @@
     ],
     "regions": [],
     "state": true
-  },
-  {
-    "type": "danger",
-    "html": "<div><strong>AVISO!</strong> Nós da equipe sBotics já estamos cientes que existe uma falha ao tentar salvar ou compilar, algum código feito em rEduc, estamos reunidos corrigindo essa falha. Em breve uma correção será liberada, peço a compreensão de todos e que aguardem essa correção.</div>",
-    "message": "",
-    "fixed": true,
-    "icon": true,
-    "hiddenTime": 0,
-    "locales": [
-      "BR"
-    ],
-    "regions": [],
-    "state": true
   }
 ]
