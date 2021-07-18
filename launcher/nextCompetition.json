@@ -34,7 +34,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "PI"
+      ]
     },
     {
       "state": true,
@@ -46,7 +48,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "ES"
+      ]
     },
     {
       "state": true,
@@ -58,7 +62,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "ES"
+      ]
     },
     {
       "state": true,
@@ -70,7 +76,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "AC"
+      ]
     },
     {
       "state": true,
@@ -82,7 +90,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "RO"
+      ]
     },
     {
       "state": true,
@@ -94,7 +104,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "AP"
+      ]
     },
     {
       "state": true,
@@ -106,7 +118,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "PI"
+      ]
     },
     {
       "state": true,
@@ -118,7 +132,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "RO"
+      ]
     },
     {
       "state": true,
@@ -130,7 +146,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "SE"
+      ]
     },
     {
       "state": true,
@@ -142,7 +160,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "TO"
+      ]
     },
     {
       "state": true,
@@ -154,7 +174,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "SE"
+      ]
     },
     {
       "state": true,
@@ -166,7 +188,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "TO"
+      ]
     },
     {
       "state": true,
@@ -178,7 +202,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "AP"
+      ]
     },
     {
       "state": true,
@@ -190,7 +216,9 @@
       "locales": [
         "BR"
       ],
-      "regions": []
+      "regions": [
+        "AC"
+      ]
     }
   ]
 }
