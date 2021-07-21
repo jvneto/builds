@@ -2,6 +2,30 @@
   "competition": [
     {
       "state": true,
+      "title": "4° Amistoso Esquenta OBR! - Nível 1",
+      "description": "<a style=\"text-decoration: none;\" href=\"https://www.instagram.com/p/CQtTynShhS1/\" target=\"_blank\">Para mais informações clique aqui.</a>",
+      "open_in": "ABRE EM 25/07/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/41MEs5tcj9O7cMZgGS1uzzxuZAO617U1AWu6D5DB.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/e46efa7f-c246-47e8-a8cd-e57ffa0c46fa",
+      "locales": [
+        "BR"
+      ],
+      "regions": []
+    },
+    {
+      "state": true,
+      "title": "4° Amistoso Esquenta OBR! - Nível 2",
+      "description": "<a style=\"text-decoration: none;\" href=\"https://www.instagram.com/p/CQtTynShhS1/\" target=\"_blank\">Para mais informações clique aqui.</a>",
+      "open_in": "ABRE EM 25/07/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/41MEs5tcj9O7cMZgGS1uzzxuZAO617U1AWu6D5DB.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/91559068-0e24-4124-a80d-0d2ef803a514",
+      "locales": [
+        "BR"
+      ],
+      "regions": []
+    },
+    {
+      "state": true,
       "title": "Etapa Prática Simulação da OBR - Piauí - Nível 1",
       "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
       "open_in": "ABRE EM 01/08/2021",
