@@ -2,39 +2,13 @@
   "competition": [
     {
       "state": true,
-      "title": "4° Amistoso Esquenta OBR! - Nível 1",
-      "description": "<a style=\"text-decoration: none;\" href=\"https://www.instagram.com/p/CQtTynShhS1/\" target=\"_blank\">Para mais informações clique aqui.</a>",
-      "open_in": "ABRE EM 25/07/2021",
-      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/41MEs5tcj9O7cMZgGS1uzzxuZAO617U1AWu6D5DB.jpeg",
-      "url": "https://cbotics.weduc.natalnet.br/contests/e46efa7f-c246-47e8-a8cd-e57ffa0c46fa",
-      "participating_teams": "Equipes participantes: 100",
-      "verified_competition": true,
-      "locales": [
-        "BR"
-      ],
-      "regions": []
-    },
-    {
-      "state": true,
-      "title": "4° Amistoso Esquenta OBR! - Nível 2",
-      "description": "<a style=\"text-decoration: none;\" href=\"https://www.instagram.com/p/CQtTynShhS1/\" target=\"_blank\">Para mais informações clique aqui.</a>",
-      "open_in": "ABRE EM 25/07/2021",
-      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/41MEs5tcj9O7cMZgGS1uzzxuZAO617U1AWu6D5DB.jpeg",
-      "url": "https://cbotics.weduc.natalnet.br/contests/91559068-0e24-4124-a80d-0d2ef803a514",
-      "participating_teams": "Equipes participantes: 100",
-      "verified_competition": false,
-      "locales": [
-        "BR"
-      ],
-      "regions": []
-    },
-    {
-      "state": true,
       "title": "Etapa Prática Simulação da OBR - Piauí - Nível 1",
       "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/cS99xc8BGKRGA9BXAupfMjs5GKNhq8dMqIjBuTmJ.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/0e25f481-1c3a-4178-a477-27aadf48c9fc",
+      "participating_teams": "Equipes participantes: 8",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -49,6 +23,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/dSxNc0CzeWNtpjWlry5B9Wb6Uf8VCh3Dl01dS3AK.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/13f9b82c-5d09-491c-b5af-ff10601602a8",
+      "participating_teams": "Equipes participantes: 26",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -63,6 +39,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/zCTOZhkEwyC3qlyoiIogbAcY3vslrCldU4f62G31.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/16ed226e-752b-4630-a647-6d5ee0a9ea18",
+      "participating_teams": "Equipes participantes: 15",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -77,6 +55,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/xeC3UwHMtGQVctf3BZyIAq8mv4ZfxRadjiWJW0e1.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/3b99deee-4106-4b7d-8392-8d3623c438a2",
+      "participating_teams": "Equipes participantes: 3",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -91,6 +71,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/O8Uwim0d39lT3s7hQ4Ty7LvW8nkjzBdHnHXYQOa4.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/3bad55fa-ed45-4e86-adcd-fa282ea86d9e",
+      "participating_teams": "",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -105,6 +87,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/s7fkYJOkWdQv1cK1DLUJjOf5E4ngSZXcCLqJZQce.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/600673a0-d428-40bf-b4dc-1f2b1e37c2a4",
+      "participating_teams": "Equipes participantes: 3",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -119,6 +103,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/kIrhOStdqHAPEA3vcEbtAuwJdmGREzwKfIEAI92T.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/66cf91ad-6419-4e02-985d-5d25d527230d",
+      "participating_teams": "Equipes participantes: 14",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -133,6 +119,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/uewil3Zrb4FGB5hWt18shzrj24Yby5mUf56U5dbA.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/74918677-b119-4dde-bbb7-8806f49e6ef3",
+      "participating_teams": "Equipes participantes: 7",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -147,6 +135,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/HSg6c8SyTBwGrlo707Q9whQ9ZrMfHv9RLnXIsvDd.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/761fcc69-bec4-4429-a0fb-492d61097449",
+      "participating_teams": "Equipes participantes: 7",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -161,6 +151,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/NF0DnWDiPV3SiafWPmnYpYDwXB52nRAoHZJKselN.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/81e0e1cd-e452-4594-891f-cdbf8336dd09",
+      "participating_teams": "Equipes participantes: 2",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -175,6 +167,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/BsJhQyRWfLhelacgeUjv3Wzp5h7lVa5pqd9ssGwB.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/86150e8a-afba-41e1-9747-3df0207a8d81",
+      "participating_teams": "",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -189,6 +183,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/UglpnmsD52EyJWke6T4UMthCrvFT0UPK5SGhp2GR.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/a29c217b-2f1d-4893-b286-2ca467dcc927",
+      "participating_teams": "",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -203,6 +199,8 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/Btx2hbIMiXTpfbwC2XzLonPTBQSjAFqBNFn0mgf6.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/cc42e7be-d853-43c7-b3c3-e64bf9680e7e",
+      "participating_teams": "Equipes participantes: 1",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
@@ -217,11 +215,653 @@
       "open_in": "ABRE EM 01/08/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/SRx5RED8b8gu7ZzAv8gYRYIuYX1NzOZ4cUmfy5S4.png",
       "url": "https://cbotics.weduc.natalnet.br/contests/d496be15-3a42-4445-8379-903718caef66",
+      "participating_teams": "Equipes participantes: 4",
+      "verified_competition": true,
       "locales": [
         "BR"
       ],
       "regions": [
         "AC"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - São Paulo - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 07/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/7pHjVUnjf2aDMjMFAKPzO3vpg4THYHeNXgdKxUXo.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/4263c107-d730-4a12-8f6b-8ab28421752f",
+      "participating_teams": "Equipes participantes: 125",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "SP"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Mato Grosso do Sul - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 07/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/5KGLFNoRTHwpcAvt92OumUqQi8xBXMy5uCks3wsK.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/65a8831f-d758-43d6-a082-82f6550e0e0c",
+      "participating_teams": "Equipes participantes: 33",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MS"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Rio de Janeiro - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 07/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/CdmIY72wuXL5Zb4wYacEXnfHwGcqf5uu2bRAmUjp.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/8bafcb1f-9d81-4781-a926-7a437adb7133",
+      "participating_teams": "Equipes participantes: 50",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RJ"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Mato Grosso do Sul - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 07/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/NsJ95Im8w5SH8K34bPwuKihlI7RPJlRlgd9zg5VJ.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/a1dd7d3f-5138-435b-935c-00d98bd6e380",
+      "participating_teams": "Equipes participantes: 27",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MS"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Rio de Janeiro - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 07/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/Ex3ZNTYgYRjIyuCZzZzk1uaZlZitwRQ632fEjLCr.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/e8d50f82-b337-4e3b-9382-67883bd24bc6",
+      "participating_teams": "Equipes participantes: 35",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RJ"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - São Paulo - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 08/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/os57bGIt3dHFJT39wjxKvckbfgNPQDNfvVDSFuUm.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/6b2d6537-679f-48d8-9f3b-7e426b66f905",
+      "participating_teams": "Equipes participantes: 246",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "SP"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Santa Catarina - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 08/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/g8r8gQV8XlMti9vVU0Fb2V8EAUUzuer6fs1AHSuY.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/cca8a3c3-5fa1-4bb6-89ac-18d38762de03",
+      "participating_teams": "Equipes participantes: 26",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "SC"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Santa Catarina - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 08/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/UQYz3nAPdB9sPjzm2vYJ20RlbRpPdlLxn6o1vLUT.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/ccd92213-da00-4566-b376-91d1d9191486",
+      "participating_teams": "Equipes participantes: 2",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "SC"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Rio Grande do Sul - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/kMTS6Zn1HYh1gO5D6xPQ1sKqfUlwabTwG9Qux7pn.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/03426794-0a25-4f9d-b489-c091439e8958",
+      "participating_teams": "Equipes participantes: 5",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RS"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Mato Grosso - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/dCHOhq7wgLJ6zaXvwzzBplxiNWShPPvL9vKAhEWY.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/13a0ac29-2dcc-4e01-843d-77f9760286b5",
+      "participating_teams": "",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MT"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Pará - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/LutzfuXkdSomTdirPcP9TTkQYllEqwL1SEAO4DYQ.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/16ff2c40-0c26-4abc-94ec-daf724c55bc7",
+      "participating_teams": "Equipes participantes: 16",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PA"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Alagoas - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/aBZ0QyvJbl3pSKjqtsTcDlEZ8yNtLqDSSRrSaFlU.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/253d75b5-c8d0-4a25-ba02-948defaca370",
+      "participating_teams": "Equipes participantes: 21",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "AL"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Rio Grande do Sul - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/9vpxLgFBQV6m7TDKCS43mOIrb8nESXv19QKuSG7V.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/2b2e95b9-e700-48b0-a985-9364de3d47fa",
+      "participating_teams": "Equipes participantes: 23",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RS"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Alagoas - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/HTw9HeXxn2vQhQfMuUNb0lMW4VJDZwZ5depTDiv5.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/3894d2c0-8efb-4385-9082-de091109dc4a",
+      "participating_teams": "Equipes participantes: 4",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "AL"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Paraíba - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/GTxzeHaNi4gvaWSxOOUc7wMKfYv9xUghr5ceXRXp.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/3ef19d8e-75db-482a-ab70-8f49eb960f1e",
+      "participating_teams": "Equipes participantes: 55",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PB"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Distrito Federal - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/8qurhcEZo5ZhP3A82LFhpAFYGRgntGu8YztqFXjP.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/6c4f2709-3128-4770-8552-d598cfe6bf6a",
+      "participating_teams": "Equipes participantes: 33",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "DF"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Mato Grosso - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/cZACWbq3u863kacXXJOxqWMLWy7NQAgPNDCjSLsH.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/6de2d0e5-07e5-4872-8c1c-d2cdaae2691f",
+      "participating_teams": "Equipes participantes: 15",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MT"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Minas Gerais - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/ls8Xq6wsQxsCtJUpmYOecojzI9WtqMC6eHPFoFCt.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/b92d5cca-e8d9-4593-8863-17c073c4cc99",
+      "participating_teams": "Equipes participantes: 8",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MG"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Minas Gerais - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/jhjz8yGUHgyyTLC4G7Io4L5fFiNyEpZzNWBRgMF6.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/cbf8173a-88c0-4a5e-a8ec-095e876c7375",
+      "participating_teams": "Equipes participantes: 18",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MG"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Distrito Federal - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/Fr4pr2OTSYfysUDA7ob1WZNj9Ie7D6xkXyOXCcNl.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/cd01abce-a6c6-4197-ab51-755a6b1e1f20",
+      "participating_teams": "Equipes participantes: 16",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "DF"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Roraima - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/6sLpb123lW9QPXK6pA7n5vC2ysxZENTWWV8M2FsG.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/d0cb340e-8268-4d50-b231-c6a8cdfe1480",
+      "participating_teams": "Equipes participantes: 4",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RR"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Paraíba - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/SaFHvAk3isXcILfimN8oTc1HedGqC0Wt3LSRQQNZ.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/d7f23375-e327-4763-807b-7cb3bc740972",
+      "participating_teams": "Equipes participantes: 69",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PB"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Roraima - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/HnsZDwx45OaDRBrPdv3SIFXj7mbLy93f4j45NQc3.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/df4ed5f4-13b3-4100-a053-db64242c2a51",
+      "participating_teams": "Equipes participantes: 2",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RR"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Pará - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 14/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/zeIjVF5FuMeWLmPOquTbLWAs1rDZXfDVjjJ0FgoQ.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/f80371df-0e6a-42db-b4f7-f1117065b84a",
+      "participating_teams": "Equipes participantes: 8",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PA"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Pernambuco - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/u4ckxR8p3YNn0NhS0CD8PUqL6oF4UDHbHdNDoNQZ.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/02ef7c8d-a0e2-443c-9659-bcc4ee9e5830",
+      "participating_teams": "Equipes participantes: 9",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PE"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Paraná - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/5lbKmqvbogM7ZWtxcOEztA2YaI5qTZv8ZSrrtWj4.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/139bd8e7-ab46-4948-8786-3630570adce9",
+      "participating_teams": "Equipes participantes: 17",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PR"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Pernambuco - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/EuH04UYZYHp8HERzX3pNsVEdKvY1f8El7gbUzNOa.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/1d10ef48-d5ec-4f0f-a211-d2c831873e22",
+      "participating_teams": "Equipes participantes: 44",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PE"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Goiás - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/SeJSfwwdV6rzGdOGmgqJXG6DwBSaoqEMPSb06rSe.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/2697372e-ebab-4a95-9ad0-cc7ff98ec071",
+      "participating_teams": "Equipes participantes: 18",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "GO"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Bahia - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/seNbApVXCZfOlsP2H2p8Gi7MGI5ZbYVdY6rZ3rSI.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/2e63b5fa-e7c6-4a22-9877-37dc70f9f0d2",
+      "participating_teams": "Equipes participantes: 30",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "BA"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Amazonas - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/tUTJ7jQNH7HY1Qv7LgILClXcdFy3ek1gePE0M2FV.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/459df286-3cde-4f43-b91f-97cc93c2e4dd",
+      "participating_teams": "Equipes participantes: 4",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "AM"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Rio Grande do Norte - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/XnF3k9veraSFrxW4IcQFGKqStAPwsbpJJjr5iA73.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/4ff54e45-8ee4-437a-bc2c-7efbbc37cbb6",
+      "participating_teams": "Equipes participantes: 15",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RN"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Bahia - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/set3XHmN9jDaoEZPoCWOoXgeOyzjtYCEHKW4OUcI.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/964b008d-05d2-4b5d-acfb-b25b55cee167",
+      "participating_teams": "Equipes participantes: 18",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "BA"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Ceará - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/fHF9zOCIjneGTMLyIwvMrL0g3hjOTs0QffepcVkN.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/9fbec16e-9551-4fa9-aba6-7d876572c8e4",
+      "participating_teams": "Equipes participantes: 13",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "CE"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Rio Grande do Norte - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/UCtHybkPWLKA8njPeUtioUfclW3Qfhfg3iZkbnPm.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/a5a32193-e63e-4ac6-9dfd-6464e8e04df5",
+      "participating_teams": "Equipes participantes: 16",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "RN"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Maranhão - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/gOdDUpz2KNRyE1o2PK1YWSZphzJ7Wc5PsbkgAfdX.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/bad034e1-6b56-49f1-b54f-5c9370ba836c",
+      "participating_teams": "Equipes participantes: 13",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MA"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Paraná - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/DknO4oqApwGaRPjyosCO0K8gk9kiK1us81nNUWdn.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/bd5e7bce-3310-4162-891f-c2ca8c63818e",
+      "participating_teams": "Equipes participantes: 30",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "PR"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Maranhão - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/uBzsfYqqoytw4HxH1zdUFfJAW3zQTbVhyQ39zayE.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/c06631c9-81e6-4f37-bdc0-2bf2fa6314e4",
+      "participating_teams": "Equipes participantes: 33",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "MA"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Goiás - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/ZSSCSj79dpuiRIwRDVsiGOD0mDkDbZdG6MfWNAuX.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/cd7b5486-66b3-448b-ad87-87bce32c12ef",
+      "participating_teams": "Equipes participantes: 27",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "GO"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Amazonas - Nível 1",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 1. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/SDYD4aiNmbFzzgmGgQtPbmVqgnspC0RoJmMptrJb.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/d9dbfefa-fc2a-45fa-bde7-1d91f4c68814",
+      "participating_teams": "Equipes participantes: 2",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "AM"
+      ]
+    },
+    {
+      "state": true,
+      "title": "Etapa Prática Simulação da OBR - Ceará - Nível 2",
+      "description": "Etapa Estadual da Olimpíada Brasileira de Robótica Modalidade Prática Simulação 2021, Nível 2. Atente-se para os horários da competição e para as informações veiculadas no site e nas redes sociais da...",
+      "open_in": "ABRE EM 15/08/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/oalYgWaNJ9mNfE5BaG5JsmF8mRcPGCaT4Cauhg1T.png",
+      "url": "https://cbotics.weduc.natalnet.br/contests/eba2f560-dcb0-4a91-8fe5-567efafcae26",
+      "participating_teams": "Equipes participantes: 14",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": [
+        "CE"
       ]
     }
   ]
