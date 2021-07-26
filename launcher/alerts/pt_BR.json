@@ -1,9 +1,9 @@
 [
   {
     "type": "info",
-    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso oficial Esquenta OBR!</strong></h5><p>Vocês tem até <strong>SÁBADO 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão no <strong>DOMINGO</strong>. Mais informação na página de competição.</p>",
+    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso de TESTES sBotics!</strong></h5><p>Vocês tem até <strong>QUINTA 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ainda serão definidas.</p>",
     "message": "",
-    "fixed": false,
+    "fixed": true,
     "icon": false,
     "hiddenTime": 0,
     "locales": [

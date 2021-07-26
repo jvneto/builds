@@ -1,9 +1,9 @@
 [
   {
     "type": "info",
-    "html": "<h5 class=\"alert-heading\"><strong>Registration for the official B.R.O. exhibition contests is now open!</strong></h5><p>You have until <strong>SATURDAY 9 pm (UTC-3, BRT, Brasilia)</strong> to apply.</p> <hr /><p class=\"mb-0\">The rounds will take place on the <strong>SUNDAY</strong>. More information inside the competition's page.</p>",
+    "html": "<h5 class=\"alert-heading\"><strong>Registration for the TEST sBotics exhibition contest is now open!</strong></h5><p>You have until <strong>THURSDAY 9 pm (UTC-3, BRT, Brasilia)</strong> to apply.</p> <hr /><p class=\"mb-0\">The rounds have yet to be defined.</p>",
     "message": "",
-    "fixed": false,
+    "fixed": true,
     "icon": false,
     "hiddenTime": 0,
     "locales": [
