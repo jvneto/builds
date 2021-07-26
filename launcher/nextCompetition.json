@@ -15,14 +15,14 @@
       "regions": []
     },
     {
-      "state": false,
+      "state": true,
       "title": "4° Amistoso Esquenta OBR! - Nível 2",
       "description": "<a style=\"text-decoration: none;\" href=\"https://www.instagram.com/p/CQtTynShhS1/\" target=\"_blank\">Para mais informações clique aqui.</a>",
       "open_in": "ABRE EM 25/07/2021",
       "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/41MEs5tcj9O7cMZgGS1uzzxuZAO617U1AWu6D5DB.jpeg",
       "url": "https://cbotics.weduc.natalnet.br/contests/91559068-0e24-4124-a80d-0d2ef803a514",
       "participating_teams": "Equipes participantes: 100",
-      "verified_competition": true,
+      "verified_competition": false,
       "locales": [
         "BR"
       ],
