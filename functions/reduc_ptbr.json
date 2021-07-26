@@ -388,6 +388,10 @@
       "state": "true",
       "parameters": [{ "category": "Linha do Console", "type": "numero" }]
     },
+    "definircaminhoregistro": {
+      "state": "true",
+      "parameters": [{ "category": "Texto", "type": "texto" }]
+    },
     "registrartexto": {
       "state": "true",
       "parameters": [{ "category": "Texto", "type": "texto" }]

@@ -387,6 +387,10 @@
       "state": "true",
       "parameters": [{ "category": "Console Line", "type": "int" }]
     },
+    "defineRegisterPath": {
+      "state": "true",
+      "parameters": [{ "category": "String", "type": "String" }]
+    },
     "registerString": {
       "state": "true",
       "parameters": [{ "category": "String", "type": "String" }]
