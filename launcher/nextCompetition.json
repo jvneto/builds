@@ -1,7 +1,7 @@
 {
   "competition": [
     {
-      "state": true,
+      "state": false,
       "title": "Amistoso de testes - Nível 1",
       "description": "Amistoso de teste, organizado pelos desenvolvedores sBotics para descobrir algum bug na plataforma antes da OBR. Testem, testem, testem!nnNesse amistoso podem cadastrar múltiplas equipes a vontade, qu...",
       "open_in": "ABRE EM 30/07/2021",
@@ -15,7 +15,7 @@
       "regions": []
     },
     {
-      "state": true,
+      "state": false,
       "title": "Amistoso de testes - Nível 2",
       "description": "Amistoso de teste, organizado pelos desenvolvedores sBotics para descobrir algum bug na plataforma antes da OBR. Testem, testem, testem!nnNesse amistoso podem cadastrar múltiplas equipes a vontade, qu...",
       "open_in": "ABRE EM 30/07/2021",
