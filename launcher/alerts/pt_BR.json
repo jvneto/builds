@@ -1,15 +1,15 @@
 [
   {
-    "type": "info",
-    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso de TESTES sBotics!</strong></h5><p>Vocês tem até <strong>QUINTA 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ainda serão definidas.</p>",
+    "type": "warning",
+    "html": "<h5 class=\"alert-heading\"><strong>⚠ NOVIDADE ⚠</strong></h5><p>Nas próximas competições, após enviar o seu resultado no fim da rodada, você poderá verificar facilmente seu relatório de rotina. Caso concorde com as informações basta clicar em \"Tudo Certo!\", caso tenha alguma divergência da pontuação apresentada pelo simulador, será possível selecionar a opção \"Solicitar Revisão\", que redirecionará você ao nosso gerenciador de competições (cBotics). Não se esqueça de enviar todas as informações que você tiver da rodada (Vídeos, prints, ou informações em texto também 😄) para que possamos auxiliar você da melhor maneira possível.</p>",
     "message": "",
-    "fixed": true,
+    "fixed": false,
     "icon": false,
-    "hiddenTime": 0,
+    "hiddenTime": 120000,
     "locales": [
       "BR"
     ],
     "regions": [],
-    "state": false
+    "state": true
   }
 ]

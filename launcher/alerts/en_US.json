@@ -1,15 +1,15 @@
 [
   {
-    "type": "info",
-    "html": "<h5 class=\"alert-heading\"><strong>Registration for the TEST sBotics exhibition contest is now open!</strong></h5><p>You have until <strong>THURSDAY 9 pm (UTC-3, BRT, Brasilia)</strong> to apply.</p> <hr /><p class=\"mb-0\">The rounds have yet to be defined.</p>",
+    "type": "warning",
+    "html": "<h5 class=\"alert-heading\"><strong>⚠ NOVIDADE ⚠</strong></h5><p>Nas próximas competições, após enviar o seu resultado no fim da rodada, você poderá verificar facilmente seu relatório de rotina. Caso concorde com as informações basta clicar em \"Tudo Certo!\", caso tenha alguma divergência da pontuação apresentada pelo simulador, será possível selecionar a opção \"Solicitar Revisão\", que redirecionará você ao nosso gerenciador de competições (cBotics). Não se esqueça de enviar todas as informações que você tiver da rodada (Vídeos, prints, ou informações em texto também 😄) para que possamos auxiliar você da melhor maneira possível.</p>",
     "message": "",
-    "fixed": true,
+    "fixed": false,
     "icon": false,
-    "hiddenTime": 0,
+    "hiddenTime": 120000,
     "locales": [
       "BR"
     ],
     "regions": [],
-    "state": false
+    "state": true
   }
 ]
