@@ -18,17 +18,17 @@
     "win": {
       "state": true,
       "prefix": "exe",
-      "path": "https://github.com/sBotics/launcher/releases/download/v3.3.6/sBotics-Setup-3.3.6.exe"
+      "path": "https://github.com/sBotics/launcher/releases/download/v3.3.8/sBotics-Setup-3.3.8.exe"
     },
     "lin": {
       "state": true,
       "prefix": "AppImage",
-      "path": "https://github.com/sBotics/launcher/releases/download/v3.3.6/sBotics-3.3.6.AppImage"
+      "path": "https://github.com/sBotics/launcher/releases/download/v3.3.8/sBotics-3.3.8.AppImage"
     },
     "os": {
       "state": true,
       "prefix": "dmg",
-      "path": "https://github.com/sBotics/launcher/releases/download/v3.3.6/sBotics-3.3.6.dmg"
+      "path": "https://github.com/sBotics/launcher/releases/download/v3.3.8/sBotics-3.3.8.dmg"
     },
     "auto": "https://api.github.com/repos/sbotics/launcher/releases/latest"
   },
