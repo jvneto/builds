@@ -11,5 +11,18 @@
     ],
     "regions": [],
     "state": false
+  },
+  {
+    "type": "success",
+    "html": "<h5 class=\"alert-heading\"><strong>Neste final de semana concluímos as Etapas Estaduais da Modalidade Prática Virtual - Simulação!</strong></h5><p>Agradecemos imensamente a todas as equipes e todos os professores que participaram e deram o seu melhor durante esses dias de competição! <br/> Agradecemos também aos representantes estaduais, que nos ajudaram a tornar esse evento, mesmo que virtual possível! <br/> No vídeo mostramos um pouquinho do que foi esses dias! <br/> Parabéns a todos!! Nós vemos agora na Etapa Nacional!</p><div class=\"w-100 d-flex justify-content-end\"><a href=\"https://drive.google.com/file/d/1yMAl5S3-fd2lt2O7zkrurLjk4j1l_G1m/view\" class=\"btn btn-light\">Assistir Vídeos Agora</a></div>",
+    "message": "",
+    "fixed": false,
+    "icon": false,
+    "hiddenTime": 120000,
+    "locales": [
+      "BR"
+    ],
+    "regions": [],
+    "state": true
   }
 ]
