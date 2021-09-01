@@ -14,7 +14,7 @@
   },
   {
     "type": "success",
-    "html": "<h5 class=\"alert-heading\"><strong>Parabéns às equipes classificadas e a todos que participaram das etapas estaduais!</strong></h5><p>A lista das equipes classificadas para a etapa Nacional já está disponível em nosso site: <a href=\"https://obr.org.br/modalidade-pratica/etapa-nacional\" class=\"text-white\" target=\"_blank\">obr.org.br/modalidade-pratica/etapa-nacional</a>!</p>",
+    "html": "<h5 class=\"alert-heading\"><strong>Parabéns às equipes classificadas e a todos que participaram das etapas estaduais!</strong></h5><p>A lista das equipes classificadas para a etapa Nacional já está disponível em nosso site: <a href=\"http://www.obr.org.br/modalidade-pratica/etapa-nacional\" class=\"text-white\" target=\"_blank\">obr.org.br/modalidade-pratica/etapa-nacional</a>!</p>",
     "message": "",
     "fixed": false,
     "icon": false,
