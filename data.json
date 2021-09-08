@@ -1,14 +1,14 @@
 {
-  "version": "1.6.1.15",
+  "version": "1.6.2.0",
   "versions": {
-    "windows": "1.6.1.15",
-    "linux": "1.6.1.15",
+    "windows": "1.6.2.0",
+    "linux": "1.6.2.0",
     "macOS": "1.6.1.10"
   },
   "beta_versions": {
-    "windows": "1.6.1.16",
-    "linux": "1.6.1.16",
-    "macOS": "1.6.1.16"
+    "windows": "1.6.2.0",
+    "linux": "1.6.2.0",
+    "macOS": "1.6.2.0"
   },
   "update_launcher": {
     "sbotics": false,
