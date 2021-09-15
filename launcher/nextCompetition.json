@@ -1,3 +1,32 @@
 {
-  "competition": []
+  "competition": [
+    {
+      "state": false,
+      "title": "1º Amistoso Esquenta Oficial OBR Nacional - Nível 1",
+      "description": "<a href=\"https://www.instagram.com/p/CTnd8oXss0D\" target=\"_blank\">Mais informações</a>",
+      "open_in": "ABRE EM 19/09/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/PnZPfM6Ew05c1vkf4fFoibUK6Y6AjPLKxRsMBJWc.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/fda2f747-82c2-488b-b753-f666d0c56cbe",
+      "participating_teams": "Equipes participantes: Não Definido",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": []
+    },
+    {
+      "state": false,
+      "title": "1º Amistoso Esquenta Oficial OBR Nacional - Nível 2",
+      "description": "<a href=\"https://www.instagram.com/p/CTnd8oXss0D\" target=\"_blank\">Mais informações</a>",
+      "open_in": "ABRE EM 19/09/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/PnZPfM6Ew05c1vkf4fFoibUK6Y6AjPLKxRsMBJWc.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/f7496936-084f-4b9f-90d5-d32e54833851",
+      "participating_teams": "Equipes participantes: Não Definido",
+      "verified_competition": true,
+      "locales": [
+        "BR"
+      ],
+      "regions": []
+    }
+  ]
 }
