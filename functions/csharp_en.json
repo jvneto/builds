@@ -468,6 +468,7 @@
     "turnFanOff": { "state": "true", "parameters": [] },
     "temperature": { "state": "true", "parameters": [] },
     "hasAnyVictim": { "state": "true", "parameters": [] },
+    "hasKit": { "state": "true", "parameters": [] },
     "motorSpeed": { "state": "true", "parameters": [] },
     "inclination": { "state": "true", "parameters": [] },
     "stopTask": { "state": "true", "parameters": [] }
