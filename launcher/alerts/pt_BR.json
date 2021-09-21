@@ -37,5 +37,17 @@
     ],
     "regions": [],
     "state": false
+  },{
+    "type": "info",
+    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso relâmpago nacional!</strong></h5><p>Vocês tem até <strong>HOJE 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão na <strong>Quarta-Feira</strong>. Mais informação na página de competição.</p>",
+    "message": "",
+    "fixed": false,
+    "icon": false,
+    "hiddenTime": 0,
+    "locales": [
+      "BR"
+    ],
+    "regions": [],
+    "state": true
   }
 ]

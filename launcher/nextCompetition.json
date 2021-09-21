@@ -27,6 +27,33 @@
         "BR"
       ],
       "regions": []
+    },{
+      "state": true,
+      "title": "2º Amistoso Nacional - Nível 1 | sBotics ⚡",
+      "description": "2º Amistoso Nacional ⚡, nível 1, organizado pelos desenvolvedores sBotics para descobrir algum bug na plataforma antes da OBR. Testem, testem, testem! Nesse amistoso podem cadastrar múltiplas equipes a vontade, quanto mais vezes testar melhor.",
+      "open_in": "ABRE EM 22/09/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/PnZPfM6Ew05c1vkf4fFoibUK6Y6AjPLKxRsMBJWc.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/fc23a16e-286a-41ab-a466-5c099b3cbea1",
+      "participating_teams": "Equipes participantes: Não Definido",
+      "verified_competition": false,
+      "locales": [
+        "BR"
+      ],
+      "regions": []
+    },
+    {
+      "state": true,
+      "title": "2º Amistoso Nacional - Nível 2 | sBotics ⚡",
+      "description": "2º Amistoso Nacional ⚡, nível 2, organizado pelos desenvolvedores sBotics para descobrir algum bug na plataforma antes da OBR. Testem, testem, testem! Nesse amistoso podem cadastrar múltiplas equipes a vontade, quanto mais vezes testar melhor.",
+      "open_in": "ABRE EM 22/09/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/PnZPfM6Ew05c1vkf4fFoibUK6Y6AjPLKxRsMBJWc.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/12d837a8-4a36-4096-bb30-bbc8c7747c4d",
+      "participating_teams": "Equipes participantes: Não Definido",
+      "verified_competition": false,
+      "locales": [
+        "BR"
+      ],
+      "regions": []
     }
   ]
 }
