@@ -1,12 +1,12 @@
 {
   "competition": [
     {
-      "state": false,
-      "title": "1º Amistoso Esquenta Oficial OBR Nacional - Nível 1",
+      "state": true,
+      "title": "2º Amistoso Esquenta Oficial OBR Nacional - Nível 1",
       "description": "<a href=\"https://www.instagram.com/p/CTnd8oXss0D\" target=\"_blank\">Mais informações</a>",
-      "open_in": "ABRE EM 19/09/2021",
-      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/PnZPfM6Ew05c1vkf4fFoibUK6Y6AjPLKxRsMBJWc.jpeg",
-      "url": "https://cbotics.weduc.natalnet.br/contests/fda2f747-82c2-488b-b753-f666d0c56cbe",
+      "open_in": "ABRE EM 26/09/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/1oeuDXhjveK40h6X0V5h8eJ5qq0ktDxXH8xnm0o8.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/6b349b97-85e8-420d-9932-f5d125a8ff2d",
       "participating_teams": "Equipes participantes: Não Definido",
       "verified_competition": true,
       "locales": [
@@ -15,41 +15,14 @@
       "regions": []
     },
     {
-      "state": false,
-      "title": "1º Amistoso Esquenta Oficial OBR Nacional - Nível 2",
+      "state": true,
+      "title": "2º Amistoso Esquenta Oficial OBR Nacional - Nível 2",
       "description": "<a href=\"https://www.instagram.com/p/CTnd8oXss0D\" target=\"_blank\">Mais informações</a>",
-      "open_in": "ABRE EM 19/09/2021",
-      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/ZkWYqauBOgvtceETASgiThGoJGQU3xToftQg4ucp.png",
-      "url": "https://cbotics.weduc.natalnet.br/contests/f7496936-084f-4b9f-90d5-d32e54833851",
+      "open_in": "ABRE EM 26/09/2021",
+      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/eU0mNZUyv5WVOzWKThpxMHxPEZNdtOOi2BfRzPhC.jpeg",
+      "url": "https://cbotics.weduc.natalnet.br/contests/ce97a998-c701-4864-ad03-8239b60415e4",
       "participating_teams": "Equipes participantes: Não Definido",
       "verified_competition": true,
-      "locales": [
-        "BR"
-      ],
-      "regions": []
-    },{
-      "state": true,
-      "title": "2º Amistoso Nacional - Nível 1 | sBotics ⚡",
-      "description": "2º Amistoso Nacional ⚡, nível 1, organizado pelos desenvolvedores sBotics para descobrir algum bug na plataforma antes da OBR. Testem, testem, testem! Nesse amistoso podem cadastrar múltiplas equipes a vontade, quanto mais vezes testar melhor.",
-      "open_in": "ABRE EM 22/09/2021",
-      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/PnZPfM6Ew05c1vkf4fFoibUK6Y6AjPLKxRsMBJWc.jpeg",
-      "url": "https://cbotics.weduc.natalnet.br/contests/fc23a16e-286a-41ab-a466-5c099b3cbea1",
-      "participating_teams": "Equipes participantes: Não Definido",
-      "verified_competition": false,
-      "locales": [
-        "BR"
-      ],
-      "regions": []
-    },
-    {
-      "state": true,
-      "title": "2º Amistoso Nacional - Nível 2 | sBotics ⚡",
-      "description": "2º Amistoso Nacional ⚡, nível 2, organizado pelos desenvolvedores sBotics para descobrir algum bug na plataforma antes da OBR. Testem, testem, testem! Nesse amistoso podem cadastrar múltiplas equipes a vontade, quanto mais vezes testar melhor.",
-      "open_in": "ABRE EM 22/09/2021",
-      "img": "https://cbotics.weduc.natalnet.br/storage/contest-images/ZkWYqauBOgvtceETASgiThGoJGQU3xToftQg4ucp.png",
-      "url": "https://cbotics.weduc.natalnet.br/contests/12d837a8-4a36-4096-bb30-bbc8c7747c4d",
-      "participating_teams": "Equipes participantes: Não Definido",
-      "verified_competition": false,
       "locales": [
         "BR"
       ],
