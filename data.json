@@ -1,8 +1,8 @@
 {
-  "version": "1.6.2.2",
+  "version": "1.6.2.3",
   "versions": {
-    "windows": "1.6.2.2",
-    "linux": "1.6.2.2",
+    "windows": "1.6.2.3",
+    "linux": "1.6.2.3",
     "macOS": "1.6.2.2"
   },
   "beta_versions": {
