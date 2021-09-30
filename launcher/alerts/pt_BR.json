@@ -27,7 +27,7 @@
   },
   {
     "type": "info",
-    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso oficial Esquenta OBR!</strong></h5><p>Vocês tem até <strong>SÁBADO 9 da noite (UTC-3, BRT, Brasilia)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão no <strong>DOMINGO</strong>. Mais informação na página de competição.</p>",
+    "html": "<h5 class=\"alert-heading\"><strong>Abertas as inscrições para o amistoso oficial Esquenta OBR!</strong></h5><p>Vocês tem até <strong>SÁBADO 9 da noite (UTC-3, BRT, Brasília)</strong> para se inscrever.</p> <hr /><p class=\"mb-0\">As rodadas ocorrerão no <strong>DOMINGO</strong>. Mais informação na página de competição.</p>",
     "message": "",
     "fixed": false,
     "icon": false,
@@ -36,7 +36,7 @@
       "BR"
     ],
     "regions": [],
-    "state": false
+    "state": true
   },
   {
     "type": "info",
@@ -49,6 +49,6 @@
       "BR"
     ],
     "regions": [],
-    "state": true
+    "state": false
   }
 ]
