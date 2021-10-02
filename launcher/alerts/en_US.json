@@ -53,7 +53,7 @@
   },
   {
     "type": "warning",
-    "html": "<h5 class=\"alert-heading\"><strong>⚠️⚠️⚠️ Atenção equipes classificadas para a Etapa Nacional da Modalidades Prática Virtual Simulação ⚠️⚠️⚠️ </strong></h5><p><strong>Atualização do Manual da Nacional disponível do site da <a href=\"http://www.obr.org.br\" class=\"text-white\" target=\"_blank\">OBR</a></strong></p> <hr />",
+    "html": "<h5 class=\"alert-heading\"><strong>Atenção equipes classificadas para a Etapa Nacional da Modalidades Prática Virtual Simulação</strong></h5><p><strong>Atualização do Manual da Nacional disponível do site da <a href=\"http://www.obr.org.br\" class=\"text-white\" target=\"_blank\">OBR</a></strong></p>",
     "message": "",
     "fixed": true,
     "icon": true,
