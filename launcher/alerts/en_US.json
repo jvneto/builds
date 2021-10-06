@@ -36,7 +36,7 @@
       "BR"
     ],
     "regions": [],
-    "state": true
+    "state": false
   },
   {
     "type": "info",
@@ -62,6 +62,6 @@
       "BR"
     ],
     "regions": [],
-    "state": true
+    "state": false
   }
 ]
