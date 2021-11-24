@@ -63,5 +63,18 @@
     ],
     "regions": [],
     "state": false
+  },
+  {
+    "type": "warning",
+    "html": "<h5 class=\"alert-heading\"><strong>🛑⚠️ Comunicado Oficial sBotics! 🛑⚠️</strong></h5><p>Por conta de uma grande atualização futura, e por questões técnicas, informo por meio desse comunicado que a partir do dia <strong>10 de DEZEMBRO - 00:00 (UTC-3, BRT, Brasília)</strong>, nossos servidores serão desligados, sem prazo de volta. Por conta do desligamento dos servidores, não será possível se autenticar, salvar código, compilar código, visualizar dados de competições antigas no cBotics. Todos os serviços como: sBotics, wEduc, cBotics ficaram fora do ar.</p>",
+    "message": "",
+    "fixed": true,
+    "icon": false,
+    "hiddenTime": 0,
+    "locales": [
+      "BR"
+    ],
+    "regions": [],
+    "state": true
   }
 ]
